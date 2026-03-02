@@ -1,6 +1,6 @@
 title: ComStock
 description: ComStock Documentation
-theme: just-the-docs
+# theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 url: https://github.com/NREL/ComStock.github.io
 logo: "/assets/images/ComStock_color_hort-transparent.png"
