@@ -98,7 +98,7 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-timezone-section"><input id="faq-timezone" type="checkbox" /><label for="faq-timezone">What is the timezone of the timestamps?</label>
     <div class="show">
       <p>The timestamps of all load profiles have been converted to Eastern Standard Time, to prevent issues when aggregating across time zones.</p>
-      <p>The underlying modeling was conducted using local standard time for each location, with occupant schedules adjusted for daylight savings as applicable. All EnergyPlus timeseries outputs were converted from local standard time to Eastern Standard Time for publication in the web Data Viewer, Data Viewer exports, timeseries aggregates, and individual timeseries parquet files. In converting from local Standard Time to Eastern Standard Time, if necessary the last few hours of each dataset were moved to the beginning of the timeseries. For example, the first two hours of data from Colorado in Eastern Standard Time (Jan 1, midnight to 2 AM) were originally modeled as the last two hours of the year in Mountain Standard Time (Dec 31, 10 PM to midnight) using the corresponding weather.</p>
+      <p>The underlying modeling was conducted using local standard time for each location, with occupant schedules adjusted for daylight savings as applicable. All EnergyPlus timeseries outputs were converted from local standard time to Eastern Standard Time for publication in the web Data Viewer, Data Viewer exports, timeseries aggregates, and individual timeseries parquet files. In converting from local Standard Time to Eastern Standard Time, if necessary the last few hours of each dataset were moved to the beginning of the timeseries. For example, the first two hours of data from Colorado in Eastern Standard Time (Jan 1, midnight to 2 AM) were originally modeled as the last two hours of the year in Mountain Standard Time (Dec 31, 10 PM to midnight) using the corresponding weather. For leap years (e.g., 2012), the two hours come from Dec 30 rather than Dec 31. Please see <i>How are leap years modeled?</i> FAQ for more info.</p>
     </div>
   </li>
 
@@ -184,6 +184,31 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-bldg-ids-section"><input id="faq-bldg-ids" type="checkbox" /><label for="faq-bldg-ids">I am trying to match buildings between releases. Why do the building IDs not match between them?</label>
     <div class="show">
       <p>The building IDs and exact building characteristics between releases will not match because we re-sample our input characteristic distributions for every release. However, you can filter the building models using building characteristics to identify similar samples between releases. For instance, using building type, size, location, and wall construction type to identify similar models. The fields with the prefix “in.” show the available model inputs that you can use to do the comparison. You can see a complete list and description of available fields in the “data_dictionary.tsv” file on the OEDI Data Lake. Links to the datasets on OEDI are in the "Published Datasets" section of the <a href="{{site.baseurl}}{% link docs/data.md %}">ComStock Data page</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/data.html">ResStock data page</a>.</p>
+    </div>
+  </li>
+
+  <li class="acc" id="faq-aws-access-section"><input id="faq-aws-access" type="checkbox" /><label for="faq-aws-access">How can I use AWS Athena to query ComStock and ResStock datasets?</label>
+    <div class="show">
+      <p>Sample queries showing how to create prompts for different ComStock questions are available in the “<a href="{{site.baseurl}}{% link docs/resources/how_to_guides/aws_athena_queries.md %}">AWS Athena Queries</a>” how-to guide. These examples can be easily adapted to ResStock datasets.</p>
+      <p>A <a href="https://www.youtube.com/watch?v=qSR1MFpSiro">training video</a> on how to load ComStock and ResStock data into AWS Athena is also available.</p>
+    </div>
+  </li>
+
+  <li class="acc" id="faq-agg-timeseries-section"><input id="faq-agg-timeseries" type="checkbox" /><label for="faq-agg-timeseries">What pre-aggregated timeseries data are available on the Open Energy Data Initiative (OEDI) data lake?</label>
+    <div class="show">
+      <p>Pre-aggregated timeseries data are available in the "timeseries_aggregates" directory on OEDI and are provided for multiple geographic levels:</p>
+      <ul>
+        <li>ASHRAE/IECC climate zone</li>
+        <li>Building America climate zone</li>
+        <li>ISO/RTO region</li>
+        <li>State</li>
+        <li>PUMA</li>
+        <li>County</li>
+      </ul>
+      <p>The data are further disaggregated into separate files by building type.</p>
+      <p>These files provide aggregate, weighted, subhourly end-use energy data by fuel type for all ComStock models that meet the specified criteria. For example, the file <b>up0-co-fullservicerestaurant</b> contains aggregate end use load profiles for all full-service restaurants in Colorado.</p>
+      <p>Each file also includes "models_used" and "floor_area" columns, which indicate the number of ComStock models represented and the associated weighted floor area, respectively.</p>
+
     </div>
   </li>
   
@@ -283,6 +308,7 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-ref-section"><input id="faq-ref" type="checkbox" /><label for="faq-ref">Where can I find information about ComStock modeling methodology and assumptions?</label>
     <div class="show">
       <p>ComStock reference documentation is available in the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}#references">References section</a> of the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}">Resources page</a>. We publish an updated version with every dataset release that includes changes to the ComStock model.</p>
+      <p>Upgrade measure documentation is available on the <a href="{{site.baseurl}}{% link docs/upgrade_measures/upgrade_measures.md %}">Upgrade Measures</a> page.</p>
     </div>
   </li>
 
