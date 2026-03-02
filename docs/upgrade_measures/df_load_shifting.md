@@ -500,4 +500,4 @@ Figure A-4. Site annual electricity consumption of the ComStock baseline and the
   [end-use-load-profiles-for-us-building-stock]: https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F2023%2F
   [comstock.nrel.gov]: https://comstock.nrel.gov/
   [A picture containing table Description automatically generated]: images\media\image1.png {width="6.5in" height="2.1798611111111112in"}
-  [webpage]: https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/upgrade_measures.html
+  [webpage]: {{site.baseurl}}{% link docs/upgrade_measures/upgrade_measures.md %}

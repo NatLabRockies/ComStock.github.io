@@ -46,7 +46,7 @@ The authors would like to acknowledge additional contributors to the measures in
 
 ## Accessing Results
 
-This documentation covers the GSHP upgrade package methodology and briefly discusses key results. Results can be accessed via the ComStock™ [Published Datasets](https://nrel.github.io/ComStock.github.io/docs/data.html) page.
+This documentation covers the GSHP upgrade package methodology and briefly discusses key results. Results can be accessed via the ComStock™ [Published Datasets]({{site.baseurl}}{% link docs/data.md %}) page.
 
 ## Upgrade Package Summary
 

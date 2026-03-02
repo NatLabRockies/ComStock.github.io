@@ -120,7 +120,7 @@ Table 3. Roof Construction Types
 
 # 4.  Modeling Approach
 
-The following sections summarize the modeling approach and applicability for the three upgrades included in this upgrade package. For more detailed descriptions, reference the individual upgrade documentations, available on the [ComStock documentation website](https://nrel.github.io/ComStock.github.io/).
+The following sections summarize the modeling approach and applicability for the three upgrades included in this upgrade package. For more detailed descriptions, reference the individual upgrade documentations, available on the [ComStock documentation website]({{site.baseurl}}).
 
 ## 4.1. Window Replacement
 

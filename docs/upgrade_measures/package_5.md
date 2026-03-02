@@ -51,9 +51,9 @@ significantly.
 
 This documentation focuses on an upgrade package of five End-Use Savings
 Shapes upgrades--- [Heat Pump Rooftop Unit
-(HP-RTU)](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/hvac_hp_rtu.html),
+(HP-RTU)](https://docs.nrel.gov/docs/fy24osti/86585.pdf),
 [Air-Source Heat Pump
-(ASHP)-Boiler](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/hvac_ashp_boiler.html),
+(ASHP)-Boiler](https://docs.nrel.gov/docs/fy24osti/86199.pdf),
 Economizers, [Exhaust Air Heat Recovery (HR)/Energy
 Recovery](https://www.nrel.gov/docs/fy24osti/87542.pdf), and [Demand
 Control Ventilation](https://www.nrel.gov/docs/fy24osti/86897.pdf)
@@ -70,7 +70,7 @@ of the most common types of HVAC systems (RTUs and boilers) with heat
 pumps, and retrofitting HVAC systems with energy savings features like
 Energy Recovery, DCV, and Economizers. More details on the individual
 upgrades can be found on the [ComStock Measures
-Documentation](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/upgrade_measures.html)
+Documentation]({{site.baseurl}}{% link docs/upgrade_measures/upgrade_measures.md %})
 page.
 
 The HP-RTU and ASHP-Boiler measures were applicable to 33%, and 29% of
@@ -115,7 +115,7 @@ The authors would like to acknowledge the authors of the original measures in th
 This documentation covers the "HP-RTU + ASHP Boiler + DCV + HR +
 Economizers" upgrade methodology and briefly discusses key results.
 Results can be accessed via the ComStock™ [Published
-Datasets](https://nrel.github.io/ComStock.github.io/docs/data.html)
+Datasets]({{site.baseurl}}{% link docs/data.md %})
 page.
 
 | **Package Title**  | HP-RTU + ASHP Boiler + DCV + HR + Economizers  |
@@ -174,8 +174,8 @@ retrofits.
 
 For details about each of the five technologies, reference their
 individual upgrade documentation:
-[HP-RTU](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/hvac_hp_rtu.html),
-[ASHP-Boiler](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/hvac_ashp_boiler.html),
+[HP-RTU](https://docs.nrel.gov/docs/fy24osti/86585.pdf),
+[ASHP-Boiler](https://docs.nrel.gov/docs/fy24osti/86199.pdf),
 Economizers, [Exhaust Air Heat/Energy
 Recovery](https://www.nrel.gov/docs/fy24osti/87542.pdf), and
 [DCV](https://www.nrel.gov/docs/fy24osti/86897.pdf).
@@ -405,7 +405,7 @@ descriptions, reference the individual upgrade documents.
 ## 4.1. Heat Pump Rooftop Unit
 
 The [Heat Pump Rooftop Unit
-upgrade](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/hvac_hp_rtu.html)
+upgrade](https://docs.nrel.gov/docs/fy24osti/86585.pdf)
 replaces RTUs with HP-RTUs where applicable. The HP-RTUs are modeled
 using the EnergyPlus<sup>®</sup> "AirloopHVAC:UnitarySystem" object \[3\]. An
 OpenStudio<sup>®</sup> upgrade is used in conjunction with the ComStock workflow
@@ -474,7 +474,7 @@ with cycling operation).
 ## 4.2. Air-Source Heat Pump Boiler
 
 The [Air-Source Heat Pump Boiler
-upgrade](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/hvac_ashp_boiler.html)
+upgrade](https://docs.nrel.gov/docs/fy24osti/86199.pdf)
 replaces natural gas boilers for space heating with ASHP boilers.
 Outputs from the simulation runs could be used to quantify the carbon
 reduction and energy impact of the electrification.

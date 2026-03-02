@@ -14,7 +14,7 @@ Given the complexity of the ComStock software workflow, and the big-data skill s
 ## Published Datasets
 These datasets describe the timeseries energy consumption of the U.S. commercial building stock at the end-use level. For details on how it was created and validated, please see the project’s [final report](https://www.nrel.gov/buildings/end-use-load-profiles.html). See the [Data Access Platforms, Structure and Contents](#data-access-platforms-structure-and-contents) section for more details about the data.
 
-Each dataset release is introduced with a webinar presentation. Access the webinar recordings and slides on the [Upgrade Measures](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/upgrade_measures.html#release-webinar-recordings-and-slides) page.
+Each dataset release is introduced with a webinar presentation. Access the webinar recordings and slides on the [Upgrade Measures]({{site.baseurl}}{% link docs/upgrade_measures/upgrade_measures.md %}) page.
 
 ComStock dataset releases are summarized in the following table with links for accessing the aggregate results.
 

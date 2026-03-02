@@ -29,7 +29,7 @@ The perfect prediction method performs a simulation to obtain the annual load pr
 
 Given the load prediction, daily peak periods are determined as a time window with specified length in each day that include the predicted daily peak load and with a secondary rule such as maximizing energy saving potential.
 
-The dispatch schedule generation method is not a standalone measure and is intended to be combined with other demand flexibility measures that could leverage the peak schedule and apply demand controls on specific systems or devices for demand response, such as Thermostat Control for Load Shedding and Thermostat Control for Load Shifting listed on the ComStock [webpage](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/upgrade_measures.html).
+The dispatch schedule generation method is not a standalone measure and is intended to be combined with other demand flexibility measures that could leverage the peak schedule and apply demand controls on specific systems or devices for demand response, such as Thermostat Control for Load Shedding and Thermostat Control for Load Shifting listed on the ComStock [webpage]({{site.baseurl}}{% link docs/upgrade_measures/upgrade_measures.md %}).
 
 # Acknowledgments
 The authors would like to acknowledge the valuable guidance and input provided by Matt Leach and Chioke Harris at the National Laboratory of the Rockies. 
@@ -79,7 +79,7 @@ The latter two categories of demand response programs summarized above are load 
 
 # 2. Demand Flexibility in ComStock
 
-The current ComStock workflow does not include any demand flexibility in the baseline. This is likely sufficient for this study since demand response measures are not yet deployed at scale, so their impact at the stock level is likely minimal at this time. The existing baseline schedules (e.g., thermostat setpoint schedules) in ComStock are based on a building automation data from three industry-provided private data sources with over 3,700 buildings, described in detail in the "ComStock Documentation" report \[26\]. The output schedule from the dispatch schedule generation method described in this document will serve as the input for specific demand flexibility measures applied to certain systems, and the detailed baseline descriptions will be provided in the corresponding measure documents on the ComStock [webpage](https://nrel.github.io/ComStock.github.io/docs/upgrade_measures/upgrade_measures.html)---Thermostat Control for Load Shedding and Thermostat Control for Load Shifting.
+The current ComStock workflow does not include any demand flexibility in the baseline. This is likely sufficient for this study since demand response measures are not yet deployed at scale, so their impact at the stock level is likely minimal at this time. The existing baseline schedules (e.g., thermostat setpoint schedules) in ComStock are based on a building automation data from three industry-provided private data sources with over 3,700 buildings, described in detail in the "ComStock Documentation" report \[26\]. The output schedule from the dispatch schedule generation method described in this document will serve as the input for specific demand flexibility measures applied to certain systems, and the detailed baseline descriptions will be provided in the corresponding measure documents on the ComStock [webpage]({{site.baseurl}}{% link docs/upgrade_measures/upgrade_measures.md %})---Thermostat Control for Load Shedding and Thermostat Control for Load Shifting.
 
 # 3. Modeling Approach
 

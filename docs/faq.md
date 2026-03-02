@@ -66,7 +66,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-citation-section"><input id="faq-citation" type="checkbox" /><label for="faq-citation">How should I cite the datasets?</label>
     <div class="show">
-      <p>ComStock and ResStock can be cited according to the suggestions <a href="{{site.baseurl}}{% link docs/citation.md %}">here for ComStock</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/citation_data_attribution.html"> here for ResStock</a>.</p>
+      <p>ComStock and ResStock can be cited according to the suggestions <a href="{{site.baseurl}}{% link docs/citation.md %}">here for ComStock</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/citation_data_attribution.html"> here for ResStock</a>.</p>
     </div>
   </li>
 
@@ -76,14 +76,14 @@ Expand the sections below for answers to frequently asked questions. If you have
 <ul class="jk_accordion">
   <li class="acc" id="faq-dataset-access-section"><input id="faq-dataset-access" type="checkbox" /><label for="faq-dataset-access">How do I access the dataset?</label>
     <div class="show">
-      <p>There are several access platforms available to access ComStock and ResStock datasets. See the <a href="{{site.baseurl}}{% link docs/data.md %}">ComStock Data page</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/data.html">ResStock Data page</a> for more detail about dataset access and links to the public datasets.</p>
+      <p>There are several access platforms available to access ComStock and ResStock datasets. See the <a href="{{site.baseurl}}{% link docs/data.md %}">ComStock Data page</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/data.html">ResStock Data page</a> for more detail about dataset access and links to the public datasets.</p>
     </div>
   </li>
 
   <li class="acc" id="faq-data-dictionary-section"><input id="faq-data-dictionary" type="checkbox" /><label for="faq-data-dictionary">Are descriptions available for the end-use categories and fields available for filtering?</label>
     <div class="show">
       <p>Descriptions of each of the building characteristics and the end-use categories can be found in the “data_dictionary.tsv” file. Descriptions of the values used in those filters can be found in the “enumeration_dictionary.tsv”. Both files can be downloaded from the OEDI Data Lake and are unique to each dataset release. Use the correct data dictionary for the relevant dataset. They can be opened with Excel or a text editor.</p>
-      <p>Links to the OEDI Data Lake for each dataset release can be found on the <a href="{{site.baseurl}}{% link docs/data.md %}">ComStock Data page</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/data.html">ResStock Data page</a>.</p>
+      <p>Links to the OEDI Data Lake for each dataset release can be found on the <a href="{{site.baseurl}}{% link docs/data.md %}">ComStock Data page</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/data.html">ResStock Data page</a>.</p>
     </div>
   </li>
 
@@ -124,7 +124,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-geographic-fields-section"><input id="faq-geographic-fields" type="checkbox" /><label for="faq-geographic-fields">What do the codes used to describe "county_id" and other geographic fields mean?</label>
     <div class="show">
-      <p>ComStock and ResStock use the National Historical GIS (NHGIS) GISJOIN standard codes for county, census PUMA, and census tract, which are based on Federal Information Processing System (FIPS) codes. The datasets use the 2010 version of the GISJOIN codes--2020 are not available at this time. For more information about the geospatial fields available in the datasets, see <a href="{{site.baseurl}}{% link docs/resources/explanations/reference_geographic_codes.md %}">this explanation for ComStock</a>, and <a href="https://nrel.github.io/ResStock.github.io/docs/resources/explanations/Geographic_Fields_and_Codes.html">this explanation for ResStock.</a></p>
+      <p>ComStock and ResStock use the National Historical GIS (NHGIS) GISJOIN standard codes for county, census PUMA, and census tract, which are based on Federal Information Processing System (FIPS) codes. The datasets use the 2010 version of the GISJOIN codes--2020 are not available at this time. For more information about the geospatial fields available in the datasets, see <a href="{{site.baseurl}}{% link docs/resources/explanations/reference_geographic_codes.md %}">this explanation for ComStock</a>, and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/resources/explanations/Geographic_Fields_and_Codes.html">this explanation for ResStock.</a></p>
       <p>In most ComStock and ResStock datasets, county name is available in addition to the GISJOIN county code. For both tools, the column in the metadata_and_annual_results files on OEDI is called "in.county_name."
       </p>
     </div>
@@ -183,7 +183,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-bldg-ids-section"><input id="faq-bldg-ids" type="checkbox" /><label for="faq-bldg-ids">I am trying to match buildings between releases. Why do the building IDs not match between them?</label>
     <div class="show">
-      <p>The building IDs and exact building characteristics between releases will not match because we re-sample our input characteristic distributions for every release. However, you can filter the building models using building characteristics to identify similar samples between releases. For instance, using building type, size, location, and wall construction type to identify similar models. The fields with the prefix “in.” show the available model inputs that you can use to do the comparison. You can see a complete list and description of available fields in the “data_dictionary.tsv” file on the OEDI Data Lake. Links to the datasets on OEDI are in the "Published Datasets" section of the <a href="{{site.baseurl}}{% link docs/data.md %}">ComStock Data page</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/data.html">ResStock data page</a>.</p>
+      <p>The building IDs and exact building characteristics between releases will not match because we re-sample our input characteristic distributions for every release. However, you can filter the building models using building characteristics to identify similar samples between releases. For instance, using building type, size, location, and wall construction type to identify similar models. The fields with the prefix “in.” show the available model inputs that you can use to do the comparison. You can see a complete list and description of available fields in the “data_dictionary.tsv” file on the OEDI Data Lake. Links to the datasets on OEDI are in the "Published Datasets" section of the <a href="{{site.baseurl}}{% link docs/data.md %}">ComStock Data page</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/data.html">ResStock data page</a>.</p>
     </div>
   </li>
 
@@ -287,7 +287,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 <ul class="jk_accordion">
   <li class="acc" id="faq-run-models-section"><input id="faq-run-models" type="checkbox" /><label for="faq-run-models">Can I run ComStock or ResStock myself?</label>
     <div class="show">
-      <p>The code required to run ComStock and ResStock is available on the <a href="https://github.com/NREL/ComStock">ComStock</a> and <a href="https://github.com/NREL/ResStock">ResStock</a> public GitHub repositories. Other related code repositories are provided on the "For Developers" page for <a href="{{site.baseurl}}{% link docs/for_developers/for_developers.md %}">ComStock</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/developers.html">ResStock.</a></p>
+      <p>The code required to run ComStock and ResStock is available on the <a href="https://github.com/NREL/ComStock">ComStock</a> and <a href="https://github.com/NREL/ResStock">ResStock</a> public GitHub repositories. Other related code repositories are provided on the "For Developers" page for <a href="{{site.baseurl}}{% link docs/for_developers/for_developers.md %}">ComStock</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/developers.html">ResStock.</a></p>
       <p>While these resources are available, ComStock and ResStock are complex modeling tools and there is no documentation for running the model other than what exists in the codebase, and we are not able to support running the models at this time. We generally do not recommend running the model unless you have a deep understanding of the methodology and objectives. Please email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a> or <a href="mailto:ResStock@nrel.gov">ResStock@nrel.gov</a> if you have suggestions for improvements or specific needs.</p>
     </div>
   </li>
@@ -295,7 +295,7 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-combine-measures-section"><input id="faq-combine-measures" type="checkbox" /><label for="faq-combine-measures">I am interested in an upgrade measure combination that is not currently available as an upgrade package in the public datasets. Can I combine results from the individual measures?</label>
     <div class="show">
       <p>Our general guidance is to <b>NOT</b> combine measure results. There are interactions between most upgrade measures that affect the amount of savings and make results of multiple measures together misleading.</p>
-      <p>For an explanation and examples on this topic, see the linked <a href="{{site.baseurl}}{% link docs/resources/explanations/combining_measure_results.md %}">ComStock</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/resources/explanations/Individual_Measures_Not_Combined.html">ResStock</a> resources.</p>
+      <p>For an explanation and examples on this topic, see the linked <a href="{{site.baseurl}}{% link docs/resources/explanations/combining_measure_results.md %}">ComStock</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/resources/explanations/Individual_Measures_Not_Combined.html">ResStock</a> resources.</p>
       <p>If you have questions about combining specific measures, please email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a> or <a href="mailto:ResStock@nrel.gov">ResStock@nrel.gov</a>.</p>
     </div>
   </li>
@@ -307,8 +307,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-ref-section"><input id="faq-ref" type="checkbox" /><label for="faq-ref">Where can I find information about ComStock modeling methodology and assumptions?</label>
     <div class="show">
-      <p>ComStock reference documentation is available in the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}#references">References section</a> of the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}">Resources page</a>. We publish an updated version with every dataset release that includes changes to the ComStock model.</p>
-      <p>Upgrade measure documentation is available on the <a href="{{site.baseurl}}{% link docs/upgrade_measures/upgrade_measures.md %}">Upgrade Measures</a> page.</p>
+      <p>ComStock reference documentation is available in the <a href="https://nrel.github.io/ComStock.github.io/docs/resources/resources.html#references">References section</a> of the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}">Resources page</a>. We publish an updated version with every dataset release that includes changes to the ComStock model.</p>
     </div>
   </li>
 
@@ -371,7 +370,7 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-census-section"><input id="faq-census" type="checkbox" /><label for="faq-census">What year of U.S. Census geography (e.g., counties, PUMAs) do ComStock and ResStock use?</label>
     <div class="show">
       <p>ComStock and ResStock datasets reflect the 2010 National Historical GIS (NHGIS) GISJOIN standard codes for counties, PUMAs, and Census Tracts. Some model input data sources use 2020 Census geographies, and these are translated to 2010 before being integrated into the ComStock and ResStock workflows. However, 2020 geographic codes are not currently available in the ComStock and ResStock datasets.</p>
-      <p>For more information about geographic fields and codes used in the models, please refer to the <a href="{{site.baseurl}}{% link docs/resources/explanations/reference_geographic_codes.md %}">ComStock</a> and <a href="https://nrel.github.io/ResStock.github.io/docs/resources/explanations/Geographic_Fields_and_Codes.html">ResStock</a> user resources.
+      <p>For more information about geographic fields and codes used in the models, please refer to the <a href="{{site.baseurl}}{% link docs/resources/explanations/reference_geographic_codes.md %}">ComStock</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/resources/explanations/Geographic_Fields_and_Codes.html">ResStock</a> user resources.
       </p>
     </div>
   </li>

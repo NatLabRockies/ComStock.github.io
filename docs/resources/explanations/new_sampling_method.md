@@ -24,7 +24,7 @@ This approach maintains accuracy while reducing the computational burden of gene
 {:refdef}
 
 ## How to Use the New Sampling
-ComStock dataset releases continue to be available on the [existing platforms](https://nrel.github.io/ComStock.github.io/docs/data.html#data-access-platforms-structure-and-contents), namely the [Open Energy Data Initiative (OEDI)](https://data.openei.org/submissions/4520) and [Data Viewer](https://comstock.nrel.gov). The following sections discuss differences in the platforms with the new sampling method.
+ComStock dataset releases continue to be available on the [existing platforms]({{site.baseurl}}{% link docs/data.md %}#data-access-platforms-structure-and-contents), namely the [Open Energy Data Initiative (OEDI)](https://data.openei.org/submissions/4520) and [Data Viewer](https://comstock.nrel.gov). The following sections discuss differences in the platforms with the new sampling method.
 
 ### Open Energy Data Initiative (OEDI)
 Due to the increased geographic granularity available in ComStock, the amount of data in each dataset release has increased. To keep file sizes manageable for most users, the metadata and annual results file structure on OEDI has been modified. Users can now choose between low-resolution and high-resolution files, depending on their specific needs. High-resolution files provide metadata and annual results at census-tract resolution. Low-resolution, aggregate files are available at various geographic levels to provide smaller, more manageable file sizes.

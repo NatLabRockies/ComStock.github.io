@@ -65,7 +65,7 @@ gas emissions avoided for on-site natural gas consumption.
 This documentation covers the Electric Cooking Equipment upgrade
 methodology and briefly discusses key results. Results can be accessed
 via the ComStock™ [Published
-Datasets](https://nrel.github.io/ComStock.github.io/docs/data.html)
+Datasets]({{site.baseurl}}{% link docs/data.md %})
 page.
 
 
