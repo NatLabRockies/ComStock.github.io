@@ -40,6 +40,6 @@ ComStock originally modeled 14 building types, and grocery stores were added in 
 
 A critical factor in whether a building type can be added to ComStock is the availability of robust, space type-level data. Historically, the lack of such detailed data has been a limiting factor in expanding the range of building types represented in ComStock. To effectively add a new building type, the ComStock team requires comprehensive information, including details about how the total building floor area is distributed across various space types, what equipment is present in each space, and the energy usage specific to those spaces. 
 
-For building type requests or to share data that could support the addition of a building type to ComStock, please email us at <ComStock@nrel.gov>.
+For building type requests or to share data that could support the addition of a building type to ComStock, please email us at <ComStock@nlr.gov>.
 
 [^1]: The commercial gap model estimates the county-level, hourly electricity consumption of Commercial-sector (building and non-building, e.g. street lighting) uses not modeled in ComStock – the “commercial gap” – and is available on the Open Energy Data Initiative (OEDI) data lake, beginning with 2025 Release 1.

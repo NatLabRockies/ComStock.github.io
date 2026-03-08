@@ -8,7 +8,7 @@ published: true
 # Frequently Asked Questions
 {: .fw-500 }
 
-Expand the sections below for answers to frequently asked questions. If you have additional questions, please email us at [ComStock@nrel.gov](mailto:ComStock@nrel.gov).
+Expand the sections below for answers to frequently asked questions. If you have additional questions, please email us at [ComStock@nlr.gov](mailto:ComStock@nlr.gov).
 
 ## ComStock Essentials
 <ul class="jk_accordion">
@@ -288,7 +288,7 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-run-models-section"><input id="faq-run-models" type="checkbox" /><label for="faq-run-models">Can I run ComStock or ResStock myself?</label>
     <div class="show">
       <p>The code required to run ComStock and ResStock is available on the <a href="https://github.com/NREL/ComStock">ComStock</a> and <a href="https://github.com/NREL/ResStock">ResStock</a> public GitHub repositories. Other related code repositories are provided on the "For Developers" page for <a href="{{site.baseurl}}{% link docs/for_developers/for_developers.md %}">ComStock</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/developers.html">ResStock.</a></p>
-      <p>While these resources are available, ComStock and ResStock are complex modeling tools and there is no documentation for running the model other than what exists in the codebase, and we are not able to support running the models at this time. We generally do not recommend running the model unless you have a deep understanding of the methodology and objectives. Please email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a> or <a href="mailto:ResStock@nrel.gov">ResStock@nrel.gov</a> if you have suggestions for improvements or specific needs.</p>
+      <p>While these resources are available, ComStock and ResStock are complex modeling tools and there is no documentation for running the model other than what exists in the codebase, and we are not able to support running the models at this time. We generally do not recommend running the model unless you have a deep understanding of the methodology and objectives. Please email us at <a href="mailto:ComStock@nlr.gov">ComStock@nlr.gov</a> or <a href="mailto:ResStock@nlr.gov">ResStock@nlr.gov</a> if you have suggestions for improvements or specific needs.</p>
     </div>
   </li>
 
@@ -296,7 +296,7 @@ Expand the sections below for answers to frequently asked questions. If you have
     <div class="show">
       <p>Our general guidance is to <b>NOT</b> combine measure results. There are interactions between most upgrade measures that affect the amount of savings and make results of multiple measures together misleading.</p>
       <p>For an explanation and examples on this topic, see the linked <a href="{{site.baseurl}}{% link docs/resources/explanations/combining_measure_results.md %}">ComStock</a> and <a href="https://natlabrockies.github.io/ResStock.github.io/docs/resources/explanations/Individual_Measures_Not_Combined.html">ResStock</a> resources.</p>
-      <p>If you have questions about combining specific measures, please email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a> or <a href="mailto:ResStock@nrel.gov">ResStock@nrel.gov</a>.</p>
+      <p>If you have questions about combining specific measures, please email us at <a href="mailto:ComStock@nlr.gov">ComStock@nlr.gov</a> or <a href="mailto:ResStock@nlr.gov">ResStock@nlr.gov</a>.</p>
     </div>
   </li>
 
@@ -326,14 +326,14 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-ev-section"><input id="faq-ev" type="checkbox" /><label for="faq-ev">Are there electric vehicle (EV) charging profiles in the dataset?</label>
     <div class="show">
-      <p>No, ComStock does not currently model EV charging in the dataset. For modeling aggregate EV load profiles for a city or state, we suggest using <a href="https://afdc.energy.gov/evi-pro-lite/load-profile">EVI-Pro Lite</a>. Measured charging profile data for individual homes can be found in the <a href="https://neea.org/data/nw-end-use-load-research-project/energy-metering-study-data">NEEA HEMS data</a> and <a href="https://www.pecanstreet.org/dataport/">Pecan Street Dataport</a>. Email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a> if you have suggestions for other EV charging data sources.</p>
+      <p>No, ComStock does not currently model EV charging in the dataset. For modeling aggregate EV load profiles for a city or state, we suggest using <a href="https://afdc.energy.gov/evi-pro-lite/load-profile">EVI-Pro Lite</a>. Measured charging profile data for individual homes can be found in the <a href="https://neea.org/data/nw-end-use-load-research-project/energy-metering-study-data">NEEA HEMS data</a> and <a href="https://www.pecanstreet.org/dataport/">Pecan Street Dataport</a>. Email us at <a href="mailto:ComStock@nlr.gov">ComStock@nlr.gov</a> if you have suggestions for other EV charging data sources.</p>
     </div>
   </li>
 
   <li class="acc" id="faq-water-heater-section"><input id="faq-water-heater" type="checkbox" /><label for="faq-water-heater">Are there water heater upgrade measures available?</label>
     <div class="show">
       <p>We have not published a service water heating measure due to current water draw profiles in our baseline models. The energy consumed by heat pump water heaters (HPWHs), especially, is sensitive to how quickly the water in the tank is consumed. More specifically, how to design and size a HPWH system greatly relies on realistic water draw profiles to correctly capture when the heat pump heating and, especially, backup heating elements are triggered.</p>
-      <p>If you are aware of water draw profile data, please let email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a>! We are in search of 15-min to hourly water draw profiles for commercial buildings of various types and square footage.</p>
+      <p>If you are aware of water draw profile data, please let email us at <a href="mailto:ComStock@nlr.gov">ComStock@nlr.gov</a>! We are in search of 15-min to hourly water draw profiles for commercial buildings of various types and square footage.</p>
     </div>
   </li>
 

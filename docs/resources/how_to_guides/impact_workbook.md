@@ -39,7 +39,7 @@ To perform this analysis for your building stock, follow the steps below:
     2.  Copy the selected data and paste it into the “2. Raw Data” tab of the Workbook Template, starting at Cell A2.
 9.	**Refresh the workbook:** At the top of the Excel window, navigate to “Data” >> “Refresh All.” This will refresh all plots and tables using the newly pasted data. 
 10.	**Explore the workbook:** Refer to this document for detailed explanations about the workbook and its tabs. 
-11.	**Feedback:** If you encounter issues or have any suggestions, contact [ComStock@nrel.gov](mailto:ComStock@nrel.gov).
+11.	**Feedback:** If you encounter issues or have any suggestions, contact [ComStock@nlr.gov](mailto:ComStock@nlr.gov).
 
 [1]:../../../assets/files/ComStock Impact Analysis - Empty Template.xlsx
 [2]:../../../assets/files/download_annual_baseline_and_upgrade_for_CSIA_data.ipynb

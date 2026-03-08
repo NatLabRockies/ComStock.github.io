@@ -21,4 +21,4 @@ put short summary of results (with visuals) and point to detailed references (e.
 ![project_logo](../../assets/images/highlight_eulp.png)
 
 ## Contributors
-Chris CaraDonna [![email](../../assets/images/email.png)](mailto:Christopher.CaraDonna@nrel.gov) [![bio](../../assets/images/bio.png)](https://www.nrel.gov/research/staff/chris-caradonna.html)
+Chris CaraDonna [![email](../../assets/images/email.png)](mailto:Christopher.CaraDonna@nlr.gov) [![bio](../../assets/images/bio.png)](https://www.nrel.gov/research/staff/chris-caradonna.html)

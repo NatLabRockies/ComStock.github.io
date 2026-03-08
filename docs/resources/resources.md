@@ -36,7 +36,7 @@ This section provides a collection of step-by-step guides for using the ComStock
 - [Understand the annual energy use by building type for a city]({{  site.baseurl  }}{% link docs/resources/how_to_guides/puma_level_analysis.md %})
 
 ## Explanations
-These documents provide explanations focusing on the *how* and *why* of various parts of the ComStock data sets. While this section does not provide explicit advice on how to achieve a specific outcome, the documentation here will help users understand specific and important aspects the data sets. If while using ComStock there are aspects of the data sets that seem counterintuitive and / or confusing, please [email us](mailto:ComStock@nrel.gov) to recommend an additional piece of explanation documentation.
+These documents provide explanations focusing on the *how* and *why* of various parts of the ComStock data sets. While this section does not provide explicit advice on how to achieve a specific outcome, the documentation here will help users understand specific and important aspects the data sets. If while using ComStock there are aspects of the data sets that seem counterintuitive and / or confusing, please [email us](mailto:ComStock@nlr.gov) to recommend an additional piece of explanation documentation.
 
 ### General
 - [Building Type Crosswalks]({{  site.baseurl  }}{% link docs/resources/explanations/building_type_crosswalks.md %})
