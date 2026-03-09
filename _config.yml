@@ -2,13 +2,13 @@ title: ComStock
 description: ComStock Documentation
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
-url: https://github.com/NREL/ComStock.github.io
+url: https://github.com/natlabrockies/ComStock.github.io
 logo: "/assets/images/ComStock_color_hort-transparent.png"
 favicon_ico: "/assets/images/favicon.ico"
 search_enabled: true
 aux_links:
   "ComStock on GitHub":
-    - "https://github.com/NREL/ComStock"
+    - "https://github.com/NatLabRockies/ComStock"
 aux_links_new_tab: true
 
 footer_content:
