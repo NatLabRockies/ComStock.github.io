@@ -33,7 +33,7 @@ A gap model has been developed,[^1] which will represent the load profile of the
 If you publish an analysis using ComStock data, we recommend citing our reference documentation and clearly stating that the model represents 63% of U.S. commercial building floor area.
 
 <u>Suggested citation</u>: <br>
-Parker, Andrew, et al. 2023. ComStock Reference Documentation. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5500-83819. [https://www.nrel.gov/docs/fy23osti/83819.pdf](https://www.nrel.gov/docs/fy23osti/83819.pdf)
+Parker, Andrew, et al. 2023. ComStock Reference Documentation. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5500-83819. [https://www.nlr.gov/docs/fy23osti/83819.pdf](https://www.nlr.gov/docs/fy23osti/83819.pdf)
 
 ## Adding Building Types to ComStock
 ComStock originally modeled 14 building types, and grocery stores were added in the 2025 Release 3 update. The addition of new building types to the ComStock model is determined by both user needs and the availability of sufficient data. Decisions regarding which building types will be added to the model are influenced by research priorities set by the U.S. Department of Energy (DOE). These priorities are driven by user input and DOE’s current program goals. 

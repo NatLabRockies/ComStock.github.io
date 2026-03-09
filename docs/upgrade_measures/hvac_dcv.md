@@ -19,7 +19,7 @@ The goal of this work is to develop energy efficiency, electrification, and dema
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency, electrification, or demand flexibility measure applied. It results in a time-series profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each time step.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure---demand control ventilation (DCV). DCV can save energy by reducing the rate at which outdoor air is delivered during periods of less-than-design occupancy. This measure will enable DCV for air loops using applicable HVAC system types (all except dedicated outdoor air systems \[DOAS\], packaged systems, or that have an energy recovery ventilator \[ERV\]) and serving applicable space types (all except kitchens, dining areas, patient spaces, mechanical rooms, stairwells and corridors, or high exhaust space types) using model occupancy schedules to control the DCV. The measure is applicable to approximately 73% of the stock floor area. As office buildings in ComStock are modeled using a single, whole-building space type, DCV is not applied to these building types.
 
@@ -37,7 +37,7 @@ The DCV measure demonstrates between 2.0 and 3.8 million metric tons (MMT CO<sub
 
 # 1. Introduction
 
-This documentation covers "demand control ventilation" upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nrel.gov.](https://comstock.nrel.gov/datasets)
+This documentation covers "demand control ventilation" upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nlr.gov.](https://comstock.nlr.gov/datasets)
 
 | **Measure Title**      | Demand Control Ventilation                                                                                                                                   |
 | **Measure Definition** | This measure applies DCV to applicable air loops in a model. Ventilation rate varies based on the occupancy schedules in the model.        |
@@ -364,7 +364,7 @@ Figure 15. Percent savings distributions for site energy consumption by building
 
 \[1\] A. Parker, H. Horsey, M. Dahlhausen, M. Praprost, C. CaraDonna, A. LeBar and L. Klun, \"ComStock Reference Documentation: Version 1,\" National Renewable Energy Laboratory, Golden, CO, 2022.
 
-\[2\] \"Cambium \| Energy Analysis \| NREL,\" \[Online\]. Available: [https://www.nrel.gov/analysis/cambium.html](https://www.nrel.gov/analysis/cambium.html). \[Accessed 02 September 2022\].
+\[2\] \"Cambium \| Energy Analysis \| NREL,\" \[Online\]. Available: [https://www.nlr.gov/analysis/cambium.html](https://www.nlr.gov/analysis/cambium.html). \[Accessed 02 September 2022\].
 
 \[3\] \"Emissions & Generation Resource Integrated Database (eGRID) \| US EPA,\" \[Online\]. Available: [https://www.epa.gov/egrid](https://www.epa.gov/egrid). \[Accessed 02 September 2022\].
 

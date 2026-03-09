@@ -17,7 +17,7 @@ The goal of this work is to develop energy efficiency and demand flexibility end
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency or demand flexibility measure applied. It results in a timeseries profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each timestep.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html)
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html)
 project.
 
 This documentation focuses on a single end-use savings shape measure---dedicated outdoor air units with high-efficiency mini split heat pumps.
@@ -46,7 +46,7 @@ The authors would like to acknowledge the valuable guidance and input provided b
 
 # 1.  Introduction
 
-This documentation covers the "Dedicated Outdoor Air Unit (DOAS) With High-Efficiency Mini Split Heat Pump (MSHP)" upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nrel.gov.](https://comstock.nrel.gov/datasets)
+This documentation covers the "Dedicated Outdoor Air Unit (DOAS) With High-Efficiency Mini Split Heat Pump (MSHP)" upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nlr.gov.](https://comstock.nlr.gov/datasets)
 
 
 | **Measure Title**      | DOAS With High-Efficiency Mini Split Heat Pump                                                                                                                                                                                                                                                                                                                         |
@@ -445,7 +445,7 @@ Maximizing HVAC Efficiency, Flexibility, and Resiliency with High Efficiency Ded
 2022.
 
 \[11\] "Cambium \| Energy Analysis \| NREL." \[Online\]. Available:
-[https://www.nrel.gov/analysis/cambium.html](https://www.nrel.gov/analysis/cambium.html). \[Accessed: 02-Sep-2022\].
+[https://www.nlr.gov/analysis/cambium.html](https://www.nlr.gov/analysis/cambium.html). \[Accessed: 02-Sep-2022\].
 
 <!--
 \[12\] "Emissions & Generation Resource Integrated Database (eGRID) \|

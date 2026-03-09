@@ -15,7 +15,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-simulated-section"><input id="faq-simulated" type="checkbox" /><label for="faq-simulated">Are these load profiles measured or simulated?</label>
     <div class="show">
-      <p>The profiles are simulated using the ResStock and ComStock modeling tools, which have been validated and informed by the best available data against an array of empirical datasets. ResStock and ComStock use the EnergyPlus simulation engine. The validation results and uncertainty for quantities of interest are presented in the <a href="https://www.nrel.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles final report.</a></p>
+      <p>The profiles are simulated using the ResStock and ComStock modeling tools, which have been validated and informed by the best available data against an array of empirical datasets. ResStock and ComStock use the EnergyPlus simulation engine. The validation results and uncertainty for quantities of interest are presented in the <a href="https://www.nlr.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles final report.</a></p>
       <p>ResStock generally simulates 550,000 individual building energy models, and ComStock simulates 150,000 building energy models.</p>
     </div>
   </li>
@@ -29,13 +29,13 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-year-section"><input id="faq-year" type="checkbox" /><label for="faq-year">What year does the baseline stock represent?</label>
     <div class="show">
       <p>The ComStock and ResStock datasets represent, as closely as possible, the 2018 U.S. commercial and residential building stock characteristics. The energy consumption results depend on the weather data used in the simulations. When modeled with AMY2018 weather, the datasets represent energy use for the year 2018. When TMY3 weather is used, they represent typical or average energy consumption under typical climate conditions.</p>
-      <p>Emissions and utility bills in the ComStock and ResStock datasets use input data from a several years, depending on the dataset release. See the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}#references">ComStock reference documentation</a> or <a href="https://docs.nrel.gov/docs/fy25osti/91621.pdf">ResStock reference documentation</a> for more details.</p>
+      <p>Emissions and utility bills in the ComStock and ResStock datasets use input data from a several years, depending on the dataset release. See the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}#references">ComStock reference documentation</a> or <a href="https://docs.nlr.gov/docs/fy25osti/91621.pdf">ResStock reference documentation</a> for more details.</p>
     </div>
   </li>
 
   <li class="acc" id="faq-credible-section"><input id="faq-credible" type="checkbox" /><label for="faq-credible">Are ComStock and ResStock credible?</label>
     <div class="show">
-       <p>Yes. The models underwent extensive calibration as part of the End Use Load Profiles (EULP) project where we compared model load profiles to AMI data from around the country, and updated baseline model schedules, power densities, among other things using various data sources. Reference the <a href="https://www.nrel.gov/docs/fy22osti/80889.pdf">final report</a> for more details. The EULP project concluded in 2021.</p>
+       <p>Yes. The models underwent extensive calibration as part of the End Use Load Profiles (EULP) project where we compared model load profiles to AMI data from around the country, and updated baseline model schedules, power densities, among other things using various data sources. Reference the <a href="https://www.nlr.gov/docs/fy22osti/80889.pdf">final report</a> for more details. The EULP project concluded in 2021.</p>
       <p>For every baseline update and upgrade measures since EULP, ComStock compares energy consumption and EUI to available data sources, such as CBECS and EIA. These comparisons are available on the OEDI Data Lake for each dataset. You can find links to OEDI in the Published Datasets section of the <a href="{{site.baseurl}}{% link docs/data.md %}">Data page</a>.</p>
       <p>For details about how to determine whether the models are appropriate for a specific analysis, reference the explanation titled "<a href="{{site.baseurl}}{% link docs/resources/explanations/comstock_calibration.md %}">Considerations for ComStock Calibration, Validation, and Uncertainty</a>."</p>
     </div>
@@ -59,7 +59,7 @@ Expand the sections below for answers to frequently asked questions. If you have
       <p>The minimum sample count required for a given geography in ComStock is a function of the number of commercial buildings present in that area, as well as the quality of available input data for the ComStock model. To ensure statistical robustness in your analysis using ComStock, you may need additional building models depending on the specificity of your segmentation. A good rule of thumb is to include at least six models per segment (e.g., building type, sub-type, size, vintage, or operation hours). For example, if you’re analyzing small office buildings open more than 18 hours a day, make sure you have at least six such models.</p>
       <p>Also, cross-check ComStock’s building representation with external sources (like Google Maps or local datasets) to ensure the dataset reflects your target geography. For more detail, see the explanation titled "<a href="{{site.baseurl}}{% link docs/resources/explanations/sample_size_considerations.md %}">Sample Size Considerations</a>"</p>
       <p>Queries in sparsely populated areas or with filters applied may have relatively few samples available. In these cases, samples from nearby locations can be grouped to increase the sample size. See the tutorial titled "<a href="{{site.baseurl}}{% link docs/resources/tutorials/local_segmentation_study.md %}">Perform an analysis by blending ComStock and local data</a>" for an example of incorporating local floor area estimates to improve representation of ComStock data at specific geographic resolutions.</p>
-      <p>Users should estimate standard error for metrics of interest using the standard deviation divided by the square root of the number of samples (i.e., profiles or models). See Section 5.1.3 in the <a href="https://www.nrel.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles methodology report</a> for a discussion on uncertainty calculations.
+      <p>Users should estimate standard error for metrics of interest using the standard deviation divided by the square root of the number of samples (i.e., profiles or models). See Section 5.1.3 in the <a href="https://www.nlr.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles methodology report</a> for a discussion on uncertainty calculations.
       </p>
     </div>
   </li>
@@ -138,7 +138,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-epw-section"><input id="faq-epw" type="checkbox" /><label for="faq-epw">Are weather data files available in EPW format?</label>
     <div class="show">
-      <p>Weather data used for the modeling have been provided in .csv format for regression modeling, forecasting, or other analyses. The TMY3 weather files in EnergyPlus input format (EPW) can be downloaded from the <a href="https://data.nrel.gov/submissions/156">NLR Data Catalog</a>, with filenames that correspond to county IDs in the ResStock and ComStock metadata. EPW format weather files for 2018 or other actual meteorological years (AMY) have not been publicly released. These files can be purchased from private sector vendors. See <a href="https://energyplus.net/weather/simulation">here</a> for a list of providers.
+      <p>Weather data used for the modeling have been provided in .csv format for regression modeling, forecasting, or other analyses. The TMY3 weather files in EnergyPlus input format (EPW) can be downloaded from the <a href="https://data.nlr.gov/submissions/156">NLR Data Catalog</a>, with filenames that correspond to county IDs in the ResStock and ComStock metadata. EPW format weather files for 2018 or other actual meteorological years (AMY) have not been publicly released. These files can be purchased from private sector vendors. See <a href="https://energyplus.net/weather/simulation">here</a> for a list of providers.
       </p>
     </div>
   </li>

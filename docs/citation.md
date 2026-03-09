@@ -8,7 +8,7 @@ nav_order: 9
 {: .fw-500 }
 
 # Suggested Citation
-Parker, Andrew, et al. 2023. ComStock Reference Documentation. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5500-83819. https://www.nrel.gov/docs/fy23osti/83819.pdf 
+Parker, Andrew, et al. 2023. ComStock Reference Documentation. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5500-83819. https://www.nlr.gov/docs/fy23osti/83819.pdf 
 
 # Data Attribution
 When using ComStock data in products or reports, kindly use the suggested citation above or "Data includes information from the ComStock™ dataset developed by the National Laboratory of the Rockies (NLR) with funding from the U.S. Department of Energy (DOE)."

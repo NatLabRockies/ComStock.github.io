@@ -9,7 +9,7 @@ parent: Resources
 {: .fw-500 }
 This document serves as a guide to and resource for the methodology and assumptions behind ComStock. The Reference Documentation will be updated as major changes to the baseline models are incorporated.
 
-## [ComStock Reference Documentation: Version 1](https://www.nrel.gov/docs/fy23osti/83819.pdf)
+## [ComStock Reference Documentation: Version 1](https://www.nlr.gov/docs/fy23osti/83819.pdf)
 **March 2023**
 
 Corresponding ComStock releases:
@@ -20,4 +20,4 @@ Corresponding ComStock releases:
 Parker, Andrew, Henry Horsey, Matthew Dahlhausen, Marlena Praprost, Christopher
 CaraDonna, Amy LeBar, and Lauren Klun. 2023. ComStock Reference Documentation:
 Version 1. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5500-83819.
-[https://www.nrel.gov/docs/fy23osti/83819.pdf](https://www.nrel.gov/docs/fy23osti/83819.pdf).
+[https://www.nlr.gov/docs/fy23osti/83819.pdf](https://www.nlr.gov/docs/fy23osti/83819.pdf).

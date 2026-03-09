@@ -27,7 +27,7 @@ or on-site gas, propane, or fuel oil use) at each time step.
 ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy
 simulations to estimate the annual sub-hourly energy consumption of the commercial building stock across the United States. The baseline model
 intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in
-the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape
 measure---Electric Cooking Equipment. This measure replaces gas
@@ -1163,6 +1163,6 @@ and after the Electric Cooking Equipment upgrade was applied
 
 \[17\] R. Swierczyna, P. Sobiski and P. Don Fisher, \"Revised Heat Gain Rates from Typical Commercial Cooking Appliances from RP-1362,\" in *ASHRAE*, 2009.
 
-\[18\] National Renewable Energy Laboratory, \"Cambium,\" \[Online\]. Available: <https://www.nrel.gov/analysis/cambium.html>. \[Accessed 2 September 2022\].
+\[18\] National Renewable Energy Laboratory, \"Cambium,\" \[Online\]. Available: <https://www.nlr.gov/analysis/cambium.html>. \[Accessed 2 September 2022\].
 
 \[19\] United States Environmental Protection Agency, \"Emissions & Generation Resource Integrated Database (eGRID),\" 30 January 2024. \[Online\]. Available: <https://www.epa.gov/egrid>.

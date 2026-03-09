@@ -31,10 +31,10 @@ Find the reports that are relevant to your specific geography by clicking on you
 [![](../../assets/images/segmentation_map.png)](https://public.tableau.com/app/profile/comstock.nrel/viz/BuildingStockSegmentationforRetrofitPlanning/USMap)
 
 ## How Was the Segmentation for Retrofit Planning Developed?
-The goal of segmentation for retrofit planning is to identify commonalities in the commercial building stock that align with retrofit strategies. Segments were created by analyzing building type, vintage, and floor area, as similar buildings often share traits like operating schedules and ownership structures. Refer to the [technical documentation](https://www.nrel.gov/docs/fy24osti/88947.pdf) for detailed segment descriptions.
+The goal of segmentation for retrofit planning is to identify commonalities in the commercial building stock that align with retrofit strategies. Segments were created by analyzing building type, vintage, and floor area, as similar buildings often share traits like operating schedules and ownership structures. Refer to the [technical documentation](https://www.nlr.gov/docs/fy24osti/88947.pdf) for detailed segment descriptions.
 
 ## How Were the Geographic Clusters Developed?
-The geographic clusters are formed on a county basis and depend on building type, age, and climate. Adjacent counties with similar commercial densities, types, and age distributions form a cluster. Clusters form regional groups if they belong to the same American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) climate zone. See the [technical reference documentation](https://www.nrel.gov/docs/fy23osti/84648.pdf) for more detail on the clustering method.
+The geographic clusters are formed on a county basis and depend on building type, age, and climate. Adjacent counties with similar commercial densities, types, and age distributions form a cluster. Clusters form regional groups if they belong to the same American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) climate zone. See the [technical reference documentation](https://www.nlr.gov/docs/fy23osti/84648.pdf) for more detail on the clustering method.
 
 ## Notes
 - Topic 1 reports for California are by [California Energy Commission’s (CEC) climate zones](https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards/climate-zone-tool-maps-and).

@@ -14,7 +14,7 @@ The goal of this work is to develop energy efficiency, electrification, and dema
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency, electrification, or demand flexibility measure applied. It results in a timeseries profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each timestep.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use saving shape measure—residential unitary heat pump water heaters. Energy used for water heating is one of the major end-use categories that relies on carbon-emitting fossil fuels, such as natural gas. Decarbonization will require electrification of these fuel-fired water heating systems to meet climate goals. Water heaters that include a water tank and are fired by natural gas are the most prominent commercial building water heating system type, and therefore should be prioritized for decarbonization solutions. This measure explores the effects of transitioning conventional water heaters (fossil fuel and electric resistance) to heat pump water heaters (HPWH) for the U.S. commercial building stock, especially focusing on residential unitary heat pump systems in small commercial applications.
 
@@ -32,7 +32,7 @@ The authors would like to acknowledge the valuable guidance and input provided b
 
 # 1.  Introduction
 
-This documentation covers residential unitary heat pump water heater (HPWH) upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock data lake “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Viewer at comstock.nrel.gov.
+This documentation covers residential unitary heat pump water heater (HPWH) upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock data lake “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Viewer at comstock.nlr.gov.
 
 | **Measure Title**  | Residential Unitary Heat Pump Water Heater                                                                                                            |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -521,7 +521,7 @@ Figure 27. ComStock full national results: Aggregated greenhouse gas emissions
 
 [17] Advanced Water Heating Initiative (AWHI), “The Retrofit-ready heat pump water heater.” https://www.advancedwaterheatinginitiative.org/s/BDCpresents120VoltstotheFuture20210513.pdf
 
-[18] “Cambium.” https://www.nrel.gov/analysis/cambium.html (accessed Mar. 17, 2023).
+[18] “Cambium.” https://www.nlr.gov/analysis/cambium.html (accessed Mar. 17, 2023).
 
 [19] O. US EPA, “Emissions & Generation Resource Integrated Database (eGRID),” Jul. 27, 2020. https://www.epa.gov/egrid (accessed Mar. 17, 2023).
 

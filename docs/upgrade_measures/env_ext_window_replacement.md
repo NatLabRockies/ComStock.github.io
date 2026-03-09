@@ -17,13 +17,13 @@ The goal of this work is to develop energy efficiency, and demand flexibility en
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency or demand flexibility measure applied. It results in a timeseries profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each timestep.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure---window replacement. This measure replaces windows in the baseline building stock with windows that have properties aligning with ASHRAE's *Advanced Energy Design Guide* (AEDG). The measure is applicable to all windows in the ComStock baseline that are not triple pane, as these are already very high-performing widows. Altogether, the measure is applicable to over \>99% of the ComStock floor area, representing over 350 million m<sup>2</sup> of window area replaced. Results show \~2% aggregate stock site energy savings (89 TBtu), primarily from heating, cooling, and fan end uses. <!-- Results also show greenhouse gas emission savings between 6 MMT and 8 MMT, depending on the electricity grid emission scenario considered. -->
 
 # 1.  Introduction
 
-This documentation covers window replacement upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nrel.gov](https://comstock.nrel.gov/).
+This documentation covers window replacement upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nlr.gov](https://comstock.nlr.gov/).
 
 
 | **Measure Title** | Window Replacement |
@@ -211,11 +211,11 @@ Figure 5*.* Percent savings distribution of ComStock models by end use and fuel 
 
 ## References 
 
-\[1\] Parker, A. et al. 2022. *ComStock Documentation*. Golden, CO: National Renewable Energy Laboratory. <https://www.nrel.gov/docs/fy23osti/83819.pdf>
+\[1\] Parker, A. et al. 2022. *ComStock Documentation*. Golden, CO: National Renewable Energy Laboratory. <https://www.nlr.gov/docs/fy23osti/83819.pdf>
 
 \[2\] ASHRAE. 2014. *Advanced Energy Design Guide for Small to Medium Office Buildings 50%*.
 
-\[3\] NREL. "Cambium." Accessed September 2, 2022. <https://www.nrel.gov/analysis/cambium.html>.
+\[3\] NREL. "Cambium." Accessed September 2, 2022. <https://www.nlr.gov/analysis/cambium.html>.
 
 <!-- \[4\] U.S. EPA. "Emissions & Generation Resource Integrated Database (eGRID)." Accessed September 2, 2022. <https://www.epa.gov/egrid>.
 

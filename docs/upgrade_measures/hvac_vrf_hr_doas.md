@@ -18,7 +18,7 @@ The goal of this work is to develop energy efficiency, electrification, and dema
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency, electrification, or demand flexibility measure applied. It results in a time-series profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each time step.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single heating, ventilation, and air-conditioning (HVAC) end-use savings shape measure---a variable refrigerant flow with heat recovery (VRF HR) heating and cooling system coupled with a dedicated outdoor air system (DOAS) for ventilation.
 
@@ -798,7 +798,7 @@ Figure 25. Distribution of VRF indoor and outdoor unit counts
 
 \[16\] "Focus on Energy Cold Climate Variable Refrigerant Flow Program Study," Slipstream, 2021. \[Online\]. Available: [https://s3.us-east-1.amazonaws.com/focusonenergy/staging/inline-files/2021/EERD_VRF_Study-Final_Report.pdf](https://s3.us-east-1.amazonaws.com/focusonenergy/staging/inline-files/2021/EERD_VRF_Study-Final_Report.pdf)
 
-\[17\] A. Parker *et al.*, "ComStock Reference Documentation: Version 1," National Renewable Energy Laboratory, Golden, CO, NREL/TP-5500-83819. \[Online\]. Available: [https://www.nrel.gov/docs/fy23osti/83819.pdf](https://www.nrel.gov/docs/fy23osti/83819.pdf)
+\[17\] A. Parker *et al.*, "ComStock Reference Documentation: Version 1," National Renewable Energy Laboratory, Golden, CO, NREL/TP-5500-83819. \[Online\]. Available: [https://www.nlr.gov/docs/fy23osti/83819.pdf](https://www.nlr.gov/docs/fy23osti/83819.pdf)
 
 \[18\] "Variable Refrigerant Flow Heat Pumps: Engineering Reference --- EnergyPlus 23.1 - system curve based." [https://bigladdersoftware.com/epx/docs/23-1/engineering-reference/variable-refrigerant-flow-heat-pumps.html#variable-refrigerant-flow-heat-pump-model-system-curve-based-model](https://bigladdersoftware.com/epx/docs/23-1/engineering-reference/variable-refrigerant-flow-heat-pumps.html#variable-refrigerant-flow-heat-pump-model-system-curve-based-model) (accessed Jul. 10, 2023).
 
@@ -832,7 +832,7 @@ Figure 25. Distribution of VRF indoor and outdoor unit counts
 
 \[33\] B. Neil, "Energy Modeling Guide for Very High Efficiency DOAS," Red Car Analytics, 2023. \[Online\]. Available: [https://betterbricks.com/uploads/resources/NEEA-VHE-DOAS-Modeling-Guide_Final.pdf](https://betterbricks.com/uploads/resources/NEEA-VHE-DOAS-Modeling-Guide_Final.pdf)
 
-\[34\] "Cambium \| Energy Analysis \| NREL." [https://www.nrel.gov/analysis/cambium.html](https://www.nrel.gov/analysis/cambium.html) (accessed Sep. 02, 2022).
+\[34\] "Cambium \| Energy Analysis \| NREL." [https://www.nlr.gov/analysis/cambium.html](https://www.nlr.gov/analysis/cambium.html) (accessed Sep. 02, 2022).
 
 \[35\] "Emissions & Generation Resource Integrated Database (eGRID) \| US EPA." [https://www.epa.gov/egrid](https://www.epa.gov/egrid) (accessed Sep. 02, 2022).
 

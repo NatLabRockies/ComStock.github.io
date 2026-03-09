@@ -19,7 +19,7 @@ The goal of this work is to develop energy efficiency, electrification, and dema
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency, electrification, or demand flexibility measure applied. It results in a time-series profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each time step.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure---air-side economizers. Economizers increase outdoor ventilation at times when the system requests cooling and the controls determine that the outdoor air is cold or dry enough to be beneficial. The measure adds economizer controls to air handling units (AHUs) that do not already have this functionality. The prevalence of economizers in ComStock baseline AHUs is based on the governing energy code (based on the vintage and age of the building) for each specific model. The type of economizer control added is based on the guidelines of ASHRAE 90.1. Furthermore, a common fault that is prevalent in economizers (i.e., a fully closed outdoor air damper ) is added with certain prevalence to reflect findings from a previous study \[1\]: less than 35% of randomly selected buildings with economizers have a malfunction that persists for one month.
 
@@ -42,7 +42,7 @@ The authors would like to acknowledge the valuable guidance and input provided b
 
 # 1. Introduction
 
-This documentation covers the economizer upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nrel.gov.](https://comstock.nrel.gov/datasets)
+This documentation covers the economizer upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nlr.gov.](https://comstock.nlr.gov/datasets)
 
 | **Measure Title**  | Economizer |
 | **Measure Definition** | Adding economizer to air systems (e.g., VAVs and RTUs) where economizers are not utilized in the existing building stock. Economizer configuration is based on ASHRAE 90.1. A common economizer fault (outdoor air damper fully closed fault) is also applied with certain prevalence: less than 35% of random buildings with economizers get faulted and the fault remains for a month randomly chosen. |
@@ -334,9 +334,9 @@ As shown in previous results, the stock-level savings potential of the economize
 
 \[2\] S. Taylor and H. Cheng, "Economizer High Limit Controls and Why Enthalpy Economizers Don't Work," *ASHRAE Journal*, vol. 52, no. 11, 2010, Accessed: May 29, 2023. \[Online\]. Available: https://www.proquest.com/openview/22130ec043823a40fc7ae0770962a00a/1.pdf?pq-origsite=gscholar&cbl=41118
 
-\[3\] A. Parker *et al.*, "ComStock Reference Documentation: Version 1," National Renewable Energy Laboratory, Golden, CO, NREL/TP-5500-83819. \[Online\]. Available: https://www.nrel.gov/docs/fy23osti/83819.pdf
+\[3\] A. Parker *et al.*, "ComStock Reference Documentation: Version 1," National Renewable Energy Laboratory, Golden, CO, NREL/TP-5500-83819. \[Online\]. Available: https://www.nlr.gov/docs/fy23osti/83819.pdf
 
-\[4\] "Cambium \| Energy Analysis \| NREL." Accessed: Sep. 02, 2022. \[Online\]. Available: https://www.nrel.gov/analysis/cambium.html
+\[4\] "Cambium \| Energy Analysis \| NREL." Accessed: Sep. 02, 2022. \[Online\]. Available: https://www.nlr.gov/analysis/cambium.html
 
 \[5\] "Emissions & Generation Resource Integrated Database (eGRID) \| US EPA." Accessed: Sep. 02, 2022. \[Online\]. Available: https://www.epa.gov/egrid
 

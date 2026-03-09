@@ -18,7 +18,7 @@ The goal of this work is to develop energy efficiency, electrification, and dema
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency, electrification, or demand flexibility measure applied. It results in a time-series profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each time step.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure---heat pump rooftop units (HP-RTUs) with supplemental heat that matches the original fuel type of the replaced system. If the existing system used electric resistance heating, the supplemental heating source is electric resistance. If the existing system used a natural gas furnace, the supplemental system is modeled as natural gas. This is a modification to the "HP-RTU With Electric Supplemental Heat" measure from the Commercial End-Use Savings Shapes 2023 Release 1 data set. This document will primarily discuss the supplemental heating change for the HP-RTU measure. For a comprehensive overview of the fundamental modeling methodology and background of the HP-RTU measure, including performance curves and other key assumptions, please review the documentation for the original [HP-RTU With Electric Supplemental Heat]({{site.baseurl}}{% link docs/upgrade_measures/hvac_hp_rtu.md %}).
 
@@ -341,7 +341,7 @@ Figure 9*.* Comparison of the median noncoincident peak demand for models with g
 
 \[2\] EIA. 2020. *2018 Commercial Buildings Energy Consumption Survey (CBECS)*. Washington, D.C.: U.S. Energy Information Administration (EIA). [https://www.eia.gov/consumption/commercial/](https://www.eia.gov/consumption/commercial/).
 
-\[3\] Parker, A. et al. 2023. *ComStock Reference Documentation: Version 1*. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5500-83819. [https://www.nrel.gov/docs/fy23osti/83819.pdf](https://www.nrel.gov/docs/fy23osti/83819.pdf).
+\[3\] Parker, A. et al. 2023. *ComStock Reference Documentation: Version 1*. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5500-83819. [https://www.nlr.gov/docs/fy23osti/83819.pdf](https://www.nlr.gov/docs/fy23osti/83819.pdf).
 
 \[4\] EnergyPlus. 2022. "EnergyPlus™ Version 22.1.0 Documentation Engineering Reference." [https://energyplus.net/documentation](https://energyplus.net/documentation).
 
@@ -363,7 +363,7 @@ Figure 9*.* Comparison of the median noncoincident peak demand for models with g
 
 \[13\] Natural Resources Canada. 2020. *Air-Source Heat Pump Sizing and Selection Guide*. Ottawa, ON: Natural Resources Canada. [https://natural-resources.canada.ca/sites/nrcan/files/canmetenergy/pdf/ASHP%20Sizing%20and%20Selection%20Guide%20(EN).pdf](https://natural-resources.canada.ca/sites/nrcan/files/canmetenergy/pdf/ASHP%20Sizing%20and%20Selection%20Guide%20(EN).pdf).
 
-\[14\] NREL. n.d. "Cambium \| Energy Analysis \| NREL." \[Online\]. Available: [https://www.nrel.gov/analysis/cambium.html](https://www.nrel.gov/analysis/cambium.html). \[Accessed: 02-Sep-2022\].
+\[14\] NREL. n.d. "Cambium \| Energy Analysis \| NREL." \[Online\]. Available: [https://www.nlr.gov/analysis/cambium.html](https://www.nlr.gov/analysis/cambium.html). \[Accessed: 02-Sep-2022\].
 
 \[15\] U.S. EPA. "Emissions & Generation Resource Integrated Database (eGRID) \| US EPA." \[Online\]. Available: [https://www.epa.gov/egrid](https://www.epa.gov/egrid). \[Accessed: 02-Sep-2022\].
 

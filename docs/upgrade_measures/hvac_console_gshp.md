@@ -46,7 +46,7 @@ The authors would like to acknowledge the valuable guidance and input provided b
 
 ## Accessing Results
 
-This documentation covers the Ground-Coupled Console Water-to-Air Heat Pump Retrofit methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nrel.gov.](https://comstock.nrel.gov/)
+This documentation covers the Ground-Coupled Console Water-to-Air Heat Pump Retrofit methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)" or via the Data Viewer at [comstock.nlr.gov.](https://comstock.nlr.gov/)
 
 ## Measure Summary
 
@@ -338,7 +338,7 @@ Figure 9. Maximum daily peak intensity by season between the baseline and Consol
 
 # 7. References
 
-\[1\] National Renewable Energy Laboratory, \"Cambium,\" \[Online\]. Available: <https://www.nrel.gov/analysis/cambium.html>. \[Accessed 2 September 2022\].
+\[1\] National Renewable Energy Laboratory, \"Cambium,\" \[Online\]. Available: <https://www.nlr.gov/analysis/cambium.html>. \[Accessed 2 September 2022\].
 
 \[2\] United States Environmental Protection Agency, \"Emissions & Generation Resource Integrated Database (eGRID),\" 30 January 2024. \[Online\]. Available: <https://www.epa.gov/egrid>.
 

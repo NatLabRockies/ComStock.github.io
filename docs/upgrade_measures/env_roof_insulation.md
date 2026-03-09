@@ -17,7 +17,7 @@ The goal of this work is to develop energy efficiency and demand flexibility end
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency or demand flexibility measure applied. It results in a timeseries profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each timestep.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure—roof insulation. The roof insulation measure increases the building model’s roof insulation R-value to align with those specified in ASHRAE’s *Advanced Energy Design Guide* (AEDG), respective of the model’s particular climate zone. This could represent either replacing a building’s roof insulation completely or adding additional insulation. The insulation added to achieve the target value is rounded up to the nearest inch to better represent the options for which insulation products, such as extruded polystyrene, are typically sold. This measure is only applicable to roof surfaces with insulation R-values below the AEDG target values and does not impact roof insulation that already meets or exceeds these targets. For this ComStock analysis, the roof insulation measure was applicable to \>99% of buildings, suggesting that most commercial building are not already meeting the AEDG targets.
 
@@ -33,7 +33,7 @@ The roof insulation measure demonstrates 3% (112 TBtu) aggregate site energy sav
 # 1.  Roof Insulation
 ## 1.1.  Accessing Results
 
-This documentation covers roof insulation upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock data lake “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Viewer at comstock.nrel.gov.
+This documentation covers roof insulation upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock data lake “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Viewer at comstock.nlr.gov.
 
 ## 1.2.  Measure Summary
 
@@ -286,7 +286,7 @@ The dots appearing above some distributions indicate the location of data points
 
 [3] ASHRAE, *Advanced Energy Design Guide for Small to Medium Office Buildings 50%*. 2014.
 
-[4] “Cambium \| Energy Analysis \| NREL.” [Online]. Available: [https://www.nrel.gov/analysis/cambium.html](https://www.nrel.gov/analysis/cambium.html). [Accessed: 02-Sep-2022].
+[4] “Cambium \| Energy Analysis \| NREL.” [Online]. Available: [https://www.nlr.gov/analysis/cambium.html](https://www.nlr.gov/analysis/cambium.html). [Accessed: 02-Sep-2022].
 
 <!--
 [5] “Emissions & Generation Resource Integrated Database (eGRID) \| US EPA.” [Online]. Available: [https://www.epa.gov/egrid](https://www.epa.gov/egrid). [Accessed: 02-Sep-2022].

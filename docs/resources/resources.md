@@ -89,7 +89,7 @@ This document serves as a guide and resource for the methodology and assumptions
 | [ComStock Reference Documentation: 2025 Release 1]({{  site.baseurl  }}{% link assets/files/comstock_reference_documentation_2025_1.pdf %}) | June 2025    | 2025/comstock_amy2018_release_1 
 | [ComStock Reference Documentation: 2024 Release 2]({{  site.baseurl  }}{% link assets/files/comstock_reference_documentation_2024_2.pdf %}) | Feb. 2025    | 2024/comstock_amy2018_release_2
 | [ComStock Reference Documentation: 2024 Release 1]({{  site.baseurl  }}{% link assets/files/comstock_reference_documentation_2024_1.pdf %}) | May 2024     | 2024/comstock_amy2018_release_1
-| [ComStock Reference Documentation: Version 1](https://www.nrel.gov/docs/fy23osti/83819.pdf)                                                 | March 2023   | 2023/comstock_amy2018_release_1<br>2023/comstock_amy2018_release_2   |
+| [ComStock Reference Documentation: Version 1](https://www.nlr.gov/docs/fy23osti/83819.pdf)                                                 | March 2023   | 2023/comstock_amy2018_release_1<br>2023/comstock_amy2018_release_2   |
 
 </details>
 
@@ -107,7 +107,7 @@ The measure documentation describes the modeling methodology, assumptions, relev
 <summary><b>Geographic Clustering Reference Documentation</b></summary>
 These documents provide reference documentation for the clustering methodology developed by ComStock. The clustering algorithm described in this technical report resulted in 88 clusters across the United States. The clusters are used as the geographic basis for the “U.S. Building Stock Segmentation Series” published by DOE’s Building Technologies Office. This series will provide geographically relevant insight into building stock characteristics, energy and emissions performance, and, eventually, common end use technologies. The cluster definitions file maps counties to building stock segmentation clusters.
 
-[**Building Stock Segmentation Cluster Development**](https://www.nrel.gov/docs/fy23osti/84648.pdf)
+[**Building Stock Segmentation Cluster Development**](https://www.nlr.gov/docs/fy23osti/84648.pdf)
 
 **June 2023**
 
@@ -122,7 +122,7 @@ These documents provide reference documentation for the clustering methodology d
 This document discusses the development of a segmentation approach for the U.S. commercial building stock that focuses on identifying similarities. The resulting nine-segment approach primarily uses similarities in heating, ventilating, and air-conditioning systems, service water heating
 systems, and the presence of cooking equipment to separate buildings into categories.
 
-[**Commercial Building Stock Segmentation**](https://www.nrel.gov/docs/fy24osti/88947.pdf)
+[**Commercial Building Stock Segmentation**](https://www.nlr.gov/docs/fy24osti/88947.pdf)
 
 **May 2024**
 

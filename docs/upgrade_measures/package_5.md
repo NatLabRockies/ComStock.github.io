@@ -36,7 +36,7 @@ or on-site gas, propane, or fuel oil use) at each time step.
 ComStock is a highly granular, bottom-up model that uses multiple data
 sources, statistical sampling methods, and advanced building energy
 simulations to estimate the annual sub-hourly energy consumption of the
-commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 An upgrade package applies one or more End-Use Savings Shapes upgrades
 to a single building model simulation. Since ComStock is a bottom-up
@@ -51,12 +51,12 @@ significantly.
 
 This documentation focuses on an upgrade package of five End-Use Savings
 Shapes upgrades--- [Heat Pump Rooftop Unit
-(HP-RTU)](https://docs.nrel.gov/docs/fy24osti/86585.pdf),
+(HP-RTU)](https://docs.nlr.gov/docs/fy24osti/86585.pdf),
 [Air-Source Heat Pump
-(ASHP)-Boiler](https://docs.nrel.gov/docs/fy24osti/86199.pdf),
+(ASHP)-Boiler](https://docs.nlr.gov/docs/fy24osti/86199.pdf),
 Economizers, [Exhaust Air Heat Recovery (HR)/Energy
-Recovery](https://www.nrel.gov/docs/fy24osti/87542.pdf), and [Demand
-Control Ventilation](https://www.nrel.gov/docs/fy24osti/86897.pdf)
+Recovery](https://www.nlr.gov/docs/fy24osti/87542.pdf), and [Demand
+Control Ventilation](https://www.nlr.gov/docs/fy24osti/86897.pdf)
 (DCV). This combination of upgrades will collectively be referred to as
 the "HP-RTU + ASHP Boiler + DCV + HR + Economizers" package. HP-RTUs are
 applied to buildings with gas or electric RTUs, while the ASHP-Boiler
@@ -174,11 +174,11 @@ retrofits.
 
 For details about each of the five technologies, reference their
 individual upgrade documentation:
-[HP-RTU](https://docs.nrel.gov/docs/fy24osti/86585.pdf),
-[ASHP-Boiler](https://docs.nrel.gov/docs/fy24osti/86199.pdf),
+[HP-RTU](https://docs.nlr.gov/docs/fy24osti/86585.pdf),
+[ASHP-Boiler](https://docs.nlr.gov/docs/fy24osti/86199.pdf),
 Economizers, [Exhaust Air Heat/Energy
-Recovery](https://www.nrel.gov/docs/fy24osti/87542.pdf), and
-[DCV](https://www.nrel.gov/docs/fy24osti/86897.pdf).
+Recovery](https://www.nlr.gov/docs/fy24osti/87542.pdf), and
+[DCV](https://www.nlr.gov/docs/fy24osti/86897.pdf).
 
 # 3. ComStock Baseline Approach
 
@@ -405,7 +405,7 @@ descriptions, reference the individual upgrade documents.
 ## 4.1. Heat Pump Rooftop Unit
 
 The [Heat Pump Rooftop Unit
-upgrade](https://docs.nrel.gov/docs/fy24osti/86585.pdf)
+upgrade](https://docs.nlr.gov/docs/fy24osti/86585.pdf)
 replaces RTUs with HP-RTUs where applicable. The HP-RTUs are modeled
 using the EnergyPlus<sup>®</sup> "AirloopHVAC:UnitarySystem" object \[3\]. An
 OpenStudio<sup>®</sup> upgrade is used in conjunction with the ComStock workflow
@@ -474,7 +474,7 @@ with cycling operation).
 ## 4.2. Air-Source Heat Pump Boiler
 
 The [Air-Source Heat Pump Boiler
-upgrade](https://docs.nrel.gov/docs/fy24osti/86199.pdf)
+upgrade](https://docs.nlr.gov/docs/fy24osti/86199.pdf)
 replaces natural gas boilers for space heating with ASHP boilers.
 Outputs from the simulation runs could be used to quantify the carbon
 reduction and energy impact of the electrification.
@@ -1466,7 +1466,7 @@ and after the HP-RTU + ASHP Boiler + DCV + HR + Economizers package
 
 \[5\] Natural Resources Canada, \"AIR-SOURCE HEAT PUMP SIZING AND SELECTION GUIDE,\" 2020. \[Online\]. Available: <https://natural-resources.canada.ca/sites/nrcan/files/canmetenergy/pdf/ASHP%20Sizing%20and%20Selection%20Guide%20(EN).pdf>.
 
-\[6\] \"Cambium \| Energy Analysis \| NREL,\" \[Online\]. Available: <https://www.nrel.gov/analysis/cambium.html>. \[Accessed 02 September 2022\].
+\[6\] \"Cambium \| Energy Analysis \| NREL,\" \[Online\]. Available: <https://www.nlr.gov/analysis/cambium.html>. \[Accessed 02 September 2022\].
 
 \[7\] \"Emissions & Generation Resource Integrated Database (eGRID) \| US EPA,\" \[Online\]. Available: <https://www.epa.gov/egrid>. \[Accessed 02 September 2022\].
 

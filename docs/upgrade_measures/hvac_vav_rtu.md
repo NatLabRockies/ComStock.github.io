@@ -19,7 +19,7 @@ The goal of this work is to develop energy efficiency, electrification, and dema
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency, electrification, or demand flexibility measure applied. It results in a time-series profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each time step.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure---advanced rooftop unit control. This measure implements variable-speed control of rooftop unit (RTU) fans that are currently constant-speed, and includes options for demand-controlled ventilation and air-side economizing. These features are like the functions offered by advanced rooftop unit control (ARC) retrofit kits. This measure is expected to result in fan energy savings from the multi-speed fan control, fan savings from demand-controlled ventilation, and cooling energy savings economizing, respectively. This measure is applicable to about 39% of the floor area modeled in ComStock.
 
@@ -38,7 +38,7 @@ The authors would like to acknowledge the valuable guidance and input provided b
 
 # 1. Introduction
 
-This documentation covers "Advanced Rooftop Unit Control" upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F2023%2F)" or via the Data Viewer at [comstock.nrel.gov](https://comstock.nrel.gov/).
+This documentation covers "Advanced Rooftop Unit Control" upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock™ data lake at "[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F2023%2F)" or via the Data Viewer at [comstock.nlr.gov](https://comstock.nlr.gov/).
 
 | **Measure Title**      | Advanced Rooftop Unit Control                                                                                                                                                                                  |
 | **Measure Definition** | This measure retrofits existing packaged single-zone systems, which are modeled in ComStock with constant-volume fans, with variable speed fans, and demand-controlled ventilation and integrated economizing. |
@@ -386,7 +386,7 @@ Lawrence Berkeley National Laboratory. (N.D.). Retrieved from Demand-Controlled 
 
 Northwest Power and Conservation Council . (2022). *Regional Technical Forum*. Retrieved from Advanced Rooftop Controls: https://rtf.nwcouncil.org/measure/advanced-rooftop-controls/\#:\~:text=An%20Advanced%20Rooftop%20Control%20(ARC,as%20%E2%80%9CARC%2Dlight%E2%80%9D.
 
-NREL. (2022, September 2). *"Cambium \| Energy Analysis \| NREL."*. Retrieved from https://www.nrel.gov/analysis/cambium.html.
+NREL. (2022, September 2). *"Cambium \| Energy Analysis \| NREL."*. Retrieved from https://www.nlr.gov/analysis/cambium.html.
 
 Pacific Northwest National Lab. (2021). *Best Practices for Air-Side Economizers Operation and Maintenance*. Retrieved from O&M Best Practices: https://www.pnnl.gov/projects/om-best-practices/air-side-economizers
 

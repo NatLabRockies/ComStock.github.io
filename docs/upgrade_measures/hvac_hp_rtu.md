@@ -17,7 +17,7 @@ The goal of this work is to develop energy efficiency, electrification, and dema
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency, electrification, or demand flexibility measure applied. It results in a timeseries profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each timestep.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure—heat pump rooftop units.
 
@@ -36,7 +36,7 @@ The HP-RTU measure demonstrates between 19 and 28 million metric tons (MMT) of g
 The authors would like to acknowledge the valuable guidance and input provided by Ryan Meyer, Jon Winkler, Shanti Pless, and LONG Building Technologies.
 
 # 1. Introduction
-This documentation covers “Heat Pump Rooftop Unit” upgrade methodology and briefly discusses key results.  Results can be accessed on the ComStock™ data lake at “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Viewer at [comstock.nrel.gov.](https://comstock.nrel.gov)
+This documentation covers “Heat Pump Rooftop Unit” upgrade methodology and briefly discusses key results.  Results can be accessed on the ComStock™ data lake at “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Viewer at [comstock.nlr.gov.](https://comstock.nlr.gov)
 
 |**Measure Title**|Heat Pump Rooftop Units|
 |**Measure Definition**|This measure replaces gas-fired and electric resistance rooftop units (RTUs) with high-efficiency heat pump RTUs (HP-RTUs). The HP-RTUs are assumed to be top-of-the-line with variable-speed compressors and fans allowing for high-performance part load operation. The heat pump is sized to the design cooling load and uses a compressor lockout temperature of 0°F. Supplemental electric resistance heat is used for any additional load. All energy efficiency features in the existing RTUs (energy recovery, demand control ventilation, etc.) as well as operating schedule are transferred to the new HP-RTU system for consistency.|
@@ -395,7 +395,7 @@ Figure 16. Stock annual average percent heating electricity input used for suppl
 
 [2]	“2018 COMMERCIAL BUILDINGS ENERGY CONSUMPTION SURVEY (CBECS).” [Online]. Available: [https://www.eia.gov/consumption/commercial/](https://www.eia.gov/consumption/commercial/). [Accessed: 14-Nov-2022].
 
-[3]	A. Parker *et al.*, “ComStock Reference Documentation: Version 1,” Golden, CO, 2023. [https://www.nrel.gov/docs/fy23osti/83819.pdf](https://www.nrel.gov/docs/fy23osti/83819.pdf)
+[3]	A. Parker *et al.*, “ComStock Reference Documentation: Version 1,” Golden, CO, 2023. [https://www.nlr.gov/docs/fy23osti/83819.pdf](https://www.nlr.gov/docs/fy23osti/83819.pdf)
 
 [4]	“EnergyPlusTM Version 22.1.0 Documentation Engineering Reference,” 2022. [https://energyplus.net/documentation](https://energyplus.net/documentation)
 
@@ -417,7 +417,7 @@ Figure 16. Stock annual average percent heating electricity input used for suppl
 
 [13]	N. Resources Canada, “AIR-SOURCE HEAT PUMP SIZING AND SELECTION GUIDE.” 2020. [https://natural-resources.canada.ca/sites/nrcan/files/canmetenergy/pdf/ASHP%20Sizing%20and%20Selection%20Guide%20(EN).pdf](https://natural-resources.canada.ca/sites/nrcan/files/canmetenergy/pdf/ASHP%20Sizing%20and%20Selection%20Guide%20(EN).pdf)
 
-[14]	“Cambium \| Energy Analysis \| NREL.” [Online]. Available: [https://www.nrel.gov/analysis/cambium.html](https://www.nrel.gov/analysis/cambium.html). [Accessed: 02-Sep-2022].
+[14]	“Cambium \| Energy Analysis \| NREL.” [Online]. Available: [https://www.nlr.gov/analysis/cambium.html](https://www.nlr.gov/analysis/cambium.html). [Accessed: 02-Sep-2022].
 
 [15]	“Emissions & Generation Resource Integrated Database (eGRID) \| US EPA.” [Online]. Available: [https://www.epa.gov/egrid](https://www.epa.gov/egrid). [Accessed: 02-Sep-2022].
 

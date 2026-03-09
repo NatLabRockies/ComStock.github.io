@@ -20,7 +20,7 @@ The U.S. Department of Energy has developed a series of reports that provide com
 ## User Guides and Resources
 
 ### Introduction to ComStock slide deck
-Review our [annotated introductory slide deck](https://www.nrel.gov/docs/fy23osti/86634.pdf) to learn more about ComStock, including what it is, what is in the ComStock datasets, common ComStock use cases and examples, and how to access the data.
+Review our [annotated introductory slide deck](https://www.nlr.gov/docs/fy23osti/86634.pdf) to learn more about ComStock, including what it is, what is in the ComStock datasets, common ComStock use cases and examples, and how to access the data.
 
 ### ComStock Building Characteristics Dashboard
 Use the [ComStock Building Characteristics Dashboard](https://public.tableau.com/app/profile/comstock.nrel/viz/ComStockBuildingCharacteristicsDashboard/Introduction) to quickly and easily filter ComStock data to your geography to learn about your local commercial building stock, including the distribution of building types, vintages, and building characteristics like heating fuel, HVAC system type, and envelope construction.

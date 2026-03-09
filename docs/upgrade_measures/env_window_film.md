@@ -17,7 +17,7 @@ The goal of this work is to develop energy efficiency and demand flexibility end
 
 An *end-use savings shape* is the difference in energy consumption between a baseline building and a building with an energy efficiency or demand flexibility measure applied. It results in a timeseries profile that is broken down by end use and fuel (electricity or on-site gas, propane, or fuel oil use) at each timestep.
 
-ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nrel.gov/buildings/end-use-load-profiles.html) project.
+ComStock is a highly granular, bottom-up model that uses multiple data sources, statistical sampling methods, and advanced building energy simulations to estimate the annual subhourly energy consumption of the commercial building stock across the United States. The baseline model intends to represent the U.S. commercial building stock as it existed in 2018. The methodology and results of the baseline model are discussed in the final technical report of the [End-Use Load Profiles](https://www.nlr.gov/buildings/end-use-load-profiles.html) project.
 
 This documentation focuses on a single end-use savings shape measure—window film. The window film studied in this analysis, called solar control film, is a passive retrofit solution for windows that does not involve window replacement. This type of film is composed of transparent, tinted, or metalized laminated polyester layers and can be attached to an existing window surface (either on the exterior or interior side of the window). The properties of the window film are designed to shift the thermal and optical performances of the overall glazing system in order to serve various needs the customer would have (e.g., heat, glare).
 
@@ -31,7 +31,7 @@ The authors would like to acknowledge the valuable guidance and input provided b
 
 # 1.  Introduction
 
-This documentation covers window film upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock data lake “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Visewer at [comstock.nrel.gov](https://comstock.nrel.gov/).
+This documentation covers window film upgrade methodology and briefly discusses key results. Results can be accessed on the ComStock data lake “[end-use-load-profiles-for-us-building-stock](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)” or via the Data Visewer at [comstock.nlr.gov](https://comstock.nlr.gov/).
 
 | **Measure Title**  | Window Film                                                                                                                                                            |
 | **Measure Definition** | This measure applies new performance of the overall glazing system reflecting a scenario when an applicable window film is attached to the original (“baseline”) window.   |
@@ -339,7 +339,7 @@ Figure 20. ComStock full national results: aggregated GHG emissions
 
 [3] “Advanced Energy Design Guides (AEDG).” [https://www.ashrae.org/technical-resources/aedgs](https://www.ashrae.org/technical-resources/aedgs) (accessed Jan. 22, 2019).
 
-[4] “Cambium.” [https://www.nrel.gov/analysis/cambium.html](https://www.nrel.gov/analysis/cambium.html) (accessed Mar. 17, 2023).
+[4] “Cambium.” [https://www.nlr.gov/analysis/cambium.html](https://www.nlr.gov/analysis/cambium.html) (accessed Mar. 17, 2023).
 
 <!-- [5] O. US EPA, “Emissions & Generation Resource Integrated Database (eGRID),” Jul. 27, 2020. [https://www.epa.gov/egrid](https://www.epa.gov/egrid) (accessed Mar. 17, 2023).
 

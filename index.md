@@ -14,7 +14,7 @@ The commercial building sector stock model, or ComStock™, is a highly granular
 ComStock asks and answers two questions: **(1) How is energy used in the U.S. building stock?** and **(2) What are the impacts of energy saving technologies?** 
 
 {:refdef: style="text-align: center;"}
-[Join Our Mailing List](https://www.nrel.gov/buildings/end-use-load-profiles#contact){: .btn .btn-blue .white-text}
+[Join Our Mailing List](https://www.nlr.gov/buildings/end-use-load-profiles#contact){: .btn .btn-blue .white-text}
 {:refdef}
 
 ## Quick Links
@@ -28,9 +28,9 @@ ComStock asks and answers two questions: **(1) How is energy used in the U.S. bu
 
 [Frequently Asked Questions]({{site.baseurl}}{% link docs/faq.md %}){: .btn .btn-uo .white-text} &mdash; Answers to common questions are available on the [FAQ page]({{  site.baseurl  }}{% link docs/faq.md %}).
 
-[Introductory Slide Deck](https://www.nrel.gov/docs/fy23osti/86634.pdf){: .btn .btn-uo .white-text} &mdash; For an in-depth overview of ComStock, please review our [annotated introductory slide deck](https://www.nrel.gov/docs/fy23osti/86634.pdf).
+[Introductory Slide Deck](https://www.nlr.gov/docs/fy23osti/86634.pdf){: .btn .btn-uo .white-text} &mdash; For an in-depth overview of ComStock, please review our [annotated introductory slide deck](https://www.nlr.gov/docs/fy23osti/86634.pdf).
 
-[One-pager](https://www.nrel.gov/docs/fy24osti/88168.pdf){: .btn .btn-uo .white-text} &mdash; For a high-level overview of the tool, see our [one-pager](https://www.nrel.gov/docs/fy24osti/88168.pdf).
+[One-pager](https://www.nlr.gov/docs/fy24osti/88168.pdf){: .btn .btn-uo .white-text} &mdash; For a high-level overview of the tool, see our [one-pager](https://www.nlr.gov/docs/fy24osti/88168.pdf).
 
 ## Who Uses ComStock?
 Learn who is using the data and how with the in-depth [user summary snapshot]({{  site.baseurl  }}{% link assets/files/NREL-Bldgs-BuildStock_infographic-FY25.pdf %}). A shorter version of this information is seen below.
@@ -53,7 +53,7 @@ ComStock's most notable capability is being able to tailor the results to the qu
 
 ## How Do I Use ComStock?
 
-ComStock provides access to results through a web data viewer. Additionally, the raw results data sets (estimated at ~10 TB) are available for download. ComStock underwent extensive validation and calibration to both timeseries whole-building and end-use data through the [End-Use Load Profiles project](https://www.nrel.gov/buildings/end-use-load-profiles.html) and was widely released in October 2021. Finally, How-To and Tutorial guides are posted in the [Resources]({{  site.baseurl  }}{% link docs/resources/resources.md %}) section of this website to assist using the data for common use cases.
+ComStock provides access to results through a web data viewer. Additionally, the raw results data sets (estimated at ~10 TB) are available for download. ComStock underwent extensive validation and calibration to both timeseries whole-building and end-use data through the [End-Use Load Profiles project](https://www.nlr.gov/buildings/end-use-load-profiles.html) and was widely released in October 2021. Finally, How-To and Tutorial guides are posted in the [Resources]({{  site.baseurl  }}{% link docs/resources/resources.md %}) section of this website to assist using the data for common use cases.
 
 ComStock leverages and is deeply indebted to DOE's open-source building energy modeling ecosystem of [OpenStudio®](https://openstudio.net/) and [EnergyPlus®](https://energyplus.net/).
 

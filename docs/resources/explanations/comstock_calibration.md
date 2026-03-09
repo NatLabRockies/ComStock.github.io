@@ -12,7 +12,7 @@ A common question is whether ComStock™ is appropriately calibrated for a speci
 ComStock has been calibrated and validated as part of the three-year End-Use Load Profiles (EULP) project. This includes using 15-minute advanced metering infrastructure (AMI) time series data from 10 regions at the building type level to improve/validate load profiles. Moreover, annual comparisons were made to the AMI data as well as the Commercial Building Energy Consumption Survey (CBECS). Beyond EULP, the ComStock tool is continuously improved as data and resources become available. Note, however, the EULP project focused on electricity calibration and therefore did not attempt to calibrate natural gas. ComStock is known to underestimate natural gas consumption, and there are ongoing efforts to resolve this issue.
 
 There are two primary resources to help understand the calibration state and relevant model inputs of ComStock for a given use case:
-1. The [EULP Final Report](https://www.nrel.gov/docs/fy22osti/80889.pdf) provides a detailed description of the ComStock calibration/validation process and results. 
+1. The [EULP Final Report](https://www.nlr.gov/docs/fy22osti/80889.pdf) provides a detailed description of the ComStock calibration/validation process and results. 
 - Describes the 10 regional AMI data sources used (p. 36–37)
 - Load profile comparisons to AMI data sources, normalized and raw, per region and building type (p. 210–292)
 - Comparisons of annual energy use intensity (EUI) distributions to CBECS and AMI by region and building type (p. 210–292).
@@ -31,7 +31,7 @@ This section describes example scenarios for using the discussed resources to de
 ### Scenario 1: Small Office Load Profiles in Florida
 <u>Description:</u> A user wants to analyze the winter versus summer electricity load shape differences of small offices in Florida. They want to understand if ComStock is appropriate for this analysis.
 
-<u>Possible Decision Pathway:</u> The [EULP Final Report](https://www.nrel.gov/docs/fy22osti/80889.pdf) compares the load profiles of ComStock small offices (and all other building types) versus regional AMI data sources. Pages 215 and 216 show the normalized and non-normalized comparisons, respectively (Figure 1).
+<u>Possible Decision Pathway:</u> The [EULP Final Report](https://www.nlr.gov/docs/fy22osti/80889.pdf) compares the load profiles of ComStock small offices (and all other building types) versus regional AMI data sources. Pages 215 and 216 show the normalized and non-normalized comparisons, respectively (Figure 1).
 
 {:refdef: style="text-align: center;"}
 ![](../../../assets/images/load_profiles_calibration.svg)
