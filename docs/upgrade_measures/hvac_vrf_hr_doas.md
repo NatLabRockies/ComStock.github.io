@@ -808,7 +808,7 @@ Figure 25. Distribution of VRF indoor and outdoor unit counts
 
 \[21\] "Building Component Library: LG Electronics USA ARUB072BTE4." [https://bcl.nrel.gov/api/download?uids=9d27e880-c6e1-0133-1e11-0242ac110019](https://bcl.nrel.gov/api/download?uids=9d27e880-c6e1-0133-1e11-0242ac110019)
 
-\[22\] "Openstudio-Standards: NECB standards - ECMS - data - curves.json," Jun. 07, 2023. [https://github.com/NREL/openstudio-standards/blob/master/lib/openstudio-standards/standards/necb/ECMS/data/curves.json](https://github.com/NREL/openstudio-standards/blob/master/lib/openstudio-standards/standards/necb/ECMS/data/curves.json) (accessed Jul. 13, 2023).
+\[22\] "Openstudio-Standards: NECB standards - ECMS - data - curves.json," Jun. 07, 2023. [https://github.com/NatLabRockies/openstudio-standards/blob/master/lib/openstudio-standards/standards/necb/ECMS/data/curves.json](https://github.com/NatLabRockies/openstudio-standards/blob/master/lib/openstudio-standards/standards/necb/ECMS/data/curves.json) (accessed Jul. 13, 2023).
 
 \[23\] "Variable Refrigerant Flow Heat Pumps: Engineering Reference --- EnergyPlus 23.1 - dual performance curves." [https://bigladdersoftware.com/epx/docs/23-1/engineering-reference/variable-refrigerant-flow-heat-pumps.html#application-of-dual-performance-curves](https://bigladdersoftware.com/epx/docs/23-1/engineering-reference/variable-refrigerant-flow-heat-pumps.html#application-of-dual-performance-curves) (accessed Jul. 10, 2023).
 
@@ -824,11 +824,11 @@ Figure 25. Distribution of VRF indoor and outdoor unit counts
 
 \[29\] B. Nigusse and R. Raustad, "Verification of a VRF Heat Pump Computer Model in EnergyPlus," Univ. of Central Florida, Orlando, FL (United States), DOEEE0003848-DE-13--010, Jun. 2013. Accessed: May 23, 2023. \[Online\]. Available: [https://www.osti.gov/biblio/1093843](https://www.osti.gov/biblio/1093843)
 
-\[30\] "NREL/openstudio-standards." [https://github.com/NREL/openstudio-standards](https://github.com/NREL/openstudio-standards) (accessed Jul. 13, 2023).
+\[30\] "NREL/openstudio-standards." [https://github.com/NatLabRockies/openstudio-standards](https://github.com/NatLabRockies/openstudio-standards) (accessed Jul. 13, 2023).
 
 \[31\] "VRV Heat Recovery Outdoor Units On Daikin North America LLC," *Daikin North America LLC*. [https://bim.daikincity.com/category/vrv-heat-recovery-outdoor-units](https://bim.daikincity.com/category/vrv-heat-recovery-outdoor-units) (accessed Jul. 13, 2023).
 
-\[32\] "Openstudio-Standards: NECB standards - ECMS - hvac_systems.rb." [https://github.com/NREL/openstudio-standards/blob/12bbfabf3962af05b8c267c1da54b8e3a89217a0/lib/openstudio-standards/standards/necb/ECMS/hvac_systems.rb#L218](https://github.com/NREL/openstudio-standards/blob/12bbfabf3962af05b8c267c1da54b8e3a89217a0/lib/openstudio-standards/standards/necb/ECMS/hvac_systems.rb#L218)
+\[32\] "Openstudio-Standards: NECB standards - ECMS - hvac_systems.rb." [https://github.com/NatLabRockies/openstudio-standards/blob/12bbfabf3962af05b8c267c1da54b8e3a89217a0/lib/openstudio-standards/standards/necb/ECMS/hvac_systems.rb#L218](https://github.com/NatLabRockies/openstudio-standards/blob/12bbfabf3962af05b8c267c1da54b8e3a89217a0/lib/openstudio-standards/standards/necb/ECMS/hvac_systems.rb#L218)
 
 \[33\] B. Neil, "Energy Modeling Guide for Very High Efficiency DOAS," Red Car Analytics, 2023. \[Online\]. Available: [https://betterbricks.com/uploads/resources/NEEA-VHE-DOAS-Modeling-Guide_Final.pdf](https://betterbricks.com/uploads/resources/NEEA-VHE-DOAS-Modeling-Guide_Final.pdf)
 

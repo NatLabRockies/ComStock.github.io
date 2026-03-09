@@ -18,7 +18,7 @@ ComStock™ has been calibrated and validated as part of the three-year End-Use 
 {:refdef}
 
 ## Recommendations
-Using the latest release of ComStock will ensure you have the best available data. Improvements to the baseline model are incorporated before each release. For the latest documentation on recent changes, please visit [ComStock’s public repository](https://github.com/NREL/ComStock) on GitHub. A summary change log can also be found in the release notes. 
+Using the latest release of ComStock will ensure you have the best available data. Improvements to the baseline model are incorporated before each release. For the latest documentation on recent changes, please visit [ComStock’s public repository](https://github.com/NatLabRockies/ComStock) on GitHub. A summary change log can also be found in the release notes. 
 
 For ComStock dataset releases 2023.2 and earlier, users could consider applying a correction factor to the gas consumption results. The recommended approach to this is:
 - Sum the floor area and energy data for the region you care about.

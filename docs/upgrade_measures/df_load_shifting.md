@@ -458,7 +458,7 @@ Similar to the stock-level energy savings findings in Section 5.3, most of the s
 
 \[36\] G. Vijayakumar and others, "ANSI/RESNET/ICC 301-2022-Standard for the Calculation and Labeling of the Energy Performance of Dwelling and Sleeping Units using an Energy Rating Index," *Oceanside, CA*, 2022.
 
-\[37\] *ComStock Reference Documentation \| Utility Bills*. \[Online\]. Available: https://github.com/NREL/ComStock/blob/main/documentation/reference_doc/5_outputs.tex\#L70-L108
+\[37\] *ComStock Reference Documentation \| Utility Bills*. \[Online\]. Available: https://github.com/NatLabRockies/ComStock/blob/main/documentation/reference_doc/5_outputs.tex\#L70-L108
 
 \[38\] D. Zimny-Schmitt and J. Huggins, "Utility Rate Database (URDB)." National Renewable Energy Laboratory (NREL), Jun. 01, 2010. \[Online\]. Available: https://data.openei.org/submissions/
 

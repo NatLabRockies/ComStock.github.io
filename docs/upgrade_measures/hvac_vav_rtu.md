@@ -372,7 +372,7 @@ ASHRAE. (2022). *Energy Standard for Sites and Buildings Except Low-Rise Residen
 
 Cai, J., & Braun, J. (2018). Assessments of variable-speed equipment for packaged rooftop units (RTUs) in the United States. *Energy and Buildings, 164*, 203-218.
 
-Capital Coil and Air. (2023). *GUIDELINES FOR AIR VELOCITIES*. Retrieved from Capital Coil and Air: https://www.capitalcoil.com/guidelines-air-velocities/Carrier. (2007). *Product Data: NuFin Coils.* Carrier Corporation.Dahlhausen, M. P. (2023). OpenStudio Standards. National Renewable Energy Laboratory . Retrieved from https://github.com/NREL/openstudio-standards
+Capital Coil and Air. (2023). *GUIDELINES FOR AIR VELOCITIES*. Retrieved from Capital Coil and Air: https://www.capitalcoil.com/guidelines-air-velocities/Carrier. (2007). *Product Data: NuFin Coils.* Carrier Corporation.Dahlhausen, M. P. (2023). OpenStudio Standards. National Renewable Energy Laboratory . Retrieved from https://github.com/NatLabRockies/openstudio-standards
 
 Doebber, I. D. (2014). *RM12-2703 Advanced Rooftop Unit Control Retrofit Kit Field: Hawaii and Guam Energy Improvement Technology Demonstration Project.* 2014: National Renewable Energy Laboratory.
 

@@ -505,7 +505,7 @@ Figure 27. ComStock full national results: Aggregated greenhouse gas emissions
 
 [9] U.S. EIA, “Commercial Buildings Energy Consumption Survey (CBECS),” 2012. https://www.eia.gov/consumption/commercial/ (accessed Jan. 22, 2019).
 
-[10] *OpenStudio-HPXML*. National Renewable Energy Laboratory, 2022. Accessed: Nov. 04, 2022. [Online]. Available: https://github.com/NREL/OpenStudio-HPXML/blob/d6e982045bccc8061b777c0d496eb682294fbcd5/HPXMLtoOpenStudio/resources/waterheater.rb
+[10] *OpenStudio-HPXML*. National Renewable Energy Laboratory, 2022. Accessed: Nov. 04, 2022. [Online]. Available: https://github.com/NatLabRockies/OpenStudio-HPXML/blob/d6e982045bccc8061b777c0d496eb682294fbcd5/HPXMLtoOpenStudio/resources/waterheater.rb
 
 [11] “What do I need to know in order to properly model heat pump water heaters? - IBPSA-USA,” Dec. 16, 2022. https://www.ibpsa.us/what-do-i-need-to-know-in-order-to-properly-model-heat-pump-water-heaters/ (accessed Jan. 13, 2023).
 

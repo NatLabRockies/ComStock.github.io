@@ -514,7 +514,7 @@ The measure is effective for various weather zones, indicating that the demand f
 
 \[39\] G. Vijayakumar and others, "ANSI/RESNET/ICC 301-2022-Standard for the Calculation and Labeling of the Energy Performance of Dwelling and Sleeping Units using an Energy Rating Index," *Oceanside, CA*, 2022.
 
-\[40\] *ComStock Reference Documentation \| Utility Bills*. \[Online\]. Available: https://github.com/NREL/ComStock/blob/main/documentation/reference_doc/5_outputs.tex\#L70-L108\[41\] D. Zimny-Schmitt and J. Huggins, "Utility Rate Database (URDB)." National Renewable Energy Laboratory (NREL), Jun. 01, 2010. \[Online\]. Available: https://data.openei.org/submissions/
+\[40\] *ComStock Reference Documentation \| Utility Bills*. \[Online\]. Available: https://github.com/NatLabRockies/ComStock/blob/main/documentation/reference_doc/5_outputs.tex\#L70-L108\[41\] D. Zimny-Schmitt and J. Huggins, "Utility Rate Database (URDB)." National Renewable Energy Laboratory (NREL), Jun. 01, 2010. \[Online\]. Available: https://data.openei.org/submissions/
 
 # A.  Additional Figures
 
