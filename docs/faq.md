@@ -307,7 +307,7 @@ Expand the sections below for answers to frequently asked questions. If you have
 
   <li class="acc" id="faq-ref-section"><input id="faq-ref" type="checkbox" /><label for="faq-ref">Where can I find information about ComStock modeling methodology and assumptions?</label>
     <div class="show">
-      <p>ComStock reference documentation is available in the <a href="https://nrel.github.io/ComStock.github.io/docs/resources/resources.html#references">References section</a> of the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}">Resources page</a>. We publish an updated version with every dataset release that includes changes to the ComStock model.</p>
+      <p>ComStock reference documentation is available in the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}#references">References section</a> of the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}">Resources page</a>. We publish an updated version with every dataset release that includes changes to the ComStock model.</p>
     </div>
   </li>
 
