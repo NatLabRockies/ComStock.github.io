@@ -52,13 +52,14 @@ These documents provide explanations focusing on the *how* and *why* of various 
 - [Building Types Not Included in ComStock]({{  site.baseurl  }}{% link docs/resources/explanations/building_types_not_included.md %})<span class="label label-green">UPDATE</span>
 - [Gas Consumption Underrepresented]({{  site.baseurl  }}{% link docs/resources/explanations/gas_consumption_underrepresented.md %})
 - [Sample Size Considerations]({{  site.baseurl  }}{% link docs/resources/explanations/sample_size_considerations.md %})
+- [ComStock Hospital Modeling]({{  site.baseurl  }}{% link docs/resources/explanations/hospital_modeling.md %})<span class="label label-blue">NEW</span>
 
 ### Known Issues
 - [California Models Known Issues]({{    site.baseurl   }}{% link docs/resources/explanations/california_known_issues.md %})
 - [2024 Release 2: Utility Bill and Emissions]({{  site.baseurl  }}{% link docs/resources/explanations/utility_bills_emissions_known_issue.md %})
 - [2024 Release 2: Metadata and Annual Results Aggregate File Discrepancy]({{  site.baseurl  }}{% link docs/resources/explanations/aggregate_file_discrepancy_known_issue.md %})
-- [2025 Release 2: Geothermal Heat Pump and Demand Flexibility Package Naming]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_2_packages_known_issue.md %})<span class="label label-blue">NEW</span>
-- [2025 Release 2: Hawaii AMY2012 Weather Files]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_2_hi_known_issue.md %})<span class="label label-blue">NEW</span>
+- [2025 Release 2: Geothermal Heat Pump and Demand Flexibility Package Naming]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_2_packages_known_issue.md %})
+- [2025 Release 2: Hawaii AMY2012 Weather Files]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_2_hi_known_issue.md %})
 - [2025 Release 3: California Service Water Heating]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_3_ca_swh_known_issue.md %})<span class="label label-blue">NEW</span>
 - [2025 Release 3: Heat Pump and Envelope Package Naming]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_3_packages_known_issue.md %})<span class="label label-blue">NEW</span>
 
