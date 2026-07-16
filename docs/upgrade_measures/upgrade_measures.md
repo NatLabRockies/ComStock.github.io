@@ -57,10 +57,10 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | hvac_0025  | [Laboratory-Informed Modeling of Standard Performance Heat Pump Rooftop Units](https://docs.nlr.gov/docs/fy25osti/95119.pdf)                | 2025 Release 1 |
 | hvac_0026  | [Condensing Gas Boilers](https://docs.nlr.gov/docs/fy25osti/95014.pdf)                                                                      | 2025 Release 1 |
 | hvac_0027  | [Electric Resistance Boilers](https://docs.nlr.gov/docs/fy25osti/95015.pdf)                                                                 | 2025 Release 1 |
-| hvac_0028  | [High-Efficiency Rooftop Unit][3]<sup>++</sup>                                                                                              | 2025 Release 3 |
-| hvac_0029  | [Variable Speed Pumps][4]<sup>++</sup>                                                                                                      | 2025 Release 3 |
-| hvac_0030  | [Thermostat Setbacks During Unoccupied Periods][5]<sup>++</sup>                                                                             | 2025 Release 3 |
-| hvac_0031  | [Fan Static Pressure Reset for Multizone VAV Systems][6]<sup>++</sup>                                                                       | 2025 Release 3 |
+| hvac_0028  | [High-Efficiency Rooftop Unit](https://docs.nlr.gov/docs/fy26osti/98224.pdf)                                                                                              | 2025 Release 3 |
+| hvac_0029  | [Variable Speed Pumps](https://docs.nlr.gov/docs/fy26osti/98223.pdf)                                                                                                      | 2025 Release 3 |
+| hvac_0030  | [Thermostat Setbacks During Unoccupied Periods](https://docs.nlr.gov/docs/fy26osti/98346.pdf)                                                                             | 2025 Release 3 |
+| hvac_0031  | [Fan Static Pressure Reset for Multizone VAV Systems](https://docs.nlr.gov/docs/fy26osti/98345.pdf)                                                                       | 2025 Release 3 |
 | ltg_0001   | [LED Lighting](https://www.nlr.gov/docs/fy24osti/86100.pdf)                                                                                 | 2023 Release 1 |
 | ltg_0002   | [Lighting Controls](https://docs.nlr.gov/docs/fy26osti/96597.pdf)                                                                           | 2025 Release 2 |
 | ppl_0001   | [Electric Cooking Equipment](https://www.nlr.gov/docs/fy24osti/89130.pdf)                                                                   | 2024 Release 1 |
@@ -106,9 +106,5 @@ Note: Webinars are not held for every ComStock dataset release.
 
 
 [1]:../../assets/files/measure_name_crosswalk_2025_3.csv
-[3]:../../assets/files/ComStock Measure Doc_High Efficiency RTU.pdf
-[4]:../../assets/files/ComStock Measure Doc_Variable Speed Pumps.pdf
-[5]:../../assets/files/ComStock Measure Doc_Thermostat Setbacks During Unoccupied Periods.pdf
-[6]:../../assets/files/ComStock Measure Doc_Fan Static Pressure Reset for Multizone VAV Systems.pdf
 [8]:../../assets/files/ComStock Measure Doc_HP RTU Higher Compressor Lockout.pdf
 [9]:../../assets/files/ComStock Measure Doc_PV with Battery Storage.pdf
