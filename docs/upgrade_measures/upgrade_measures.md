@@ -22,7 +22,7 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 
 ## Measure Documentation and Details
 
-| Measure ID | Measure Name and Documentation Link                                                                                                          | Initial Dataset Release* |
+| Measure ID | Measure Name and Documentation Link                                                                                                         | Initial Dataset Release* |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------|
 | env_0001   | [Exterior Wall Insulation]({{site.baseurl}}{% link docs/upgrade_measures/env_ext_wall_insulation.md%})                                      | 2023 Release 1 |
 | env_0002   | [Roof Insulation]({{site.baseurl}}{% link docs/upgrade_measures/env_roof_insulation.md %})                                                  | 2023 Release 1 |
@@ -57,10 +57,10 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | hvac_0025  | [Laboratory-Informed Modeling of Standard Performance Heat Pump Rooftop Units](https://docs.nlr.gov/docs/fy25osti/95119.pdf)                | 2025 Release 1 |
 | hvac_0026  | [Condensing Gas Boilers](https://docs.nlr.gov/docs/fy25osti/95014.pdf)                                                                      | 2025 Release 1 |
 | hvac_0027  | [Electric Resistance Boilers](https://docs.nlr.gov/docs/fy25osti/95015.pdf)                                                                 | 2025 Release 1 |
-| hvac_0028  | [High-Efficiency Rooftop Unit](https://docs.nlr.gov/docs/fy26osti/98224.pdf)                                                                                              | 2025 Release 3 |
-| hvac_0029  | [Variable Speed Pumps](https://docs.nlr.gov/docs/fy26osti/98223.pdf)                                                                                                      | 2025 Release 3 |
-| hvac_0030  | [Thermostat Setbacks During Unoccupied Periods](https://docs.nlr.gov/docs/fy26osti/98346.pdf)                                                                             | 2025 Release 3 |
-| hvac_0031  | [Fan Static Pressure Reset for Multizone VAV Systems](https://docs.nlr.gov/docs/fy26osti/98345.pdf)                                                                       | 2025 Release 3 |
+| hvac_0028  | [High-Efficiency Rooftop Unit](https://docs.nlr.gov/docs/fy26osti/98224.pdf)                                                                | 2025 Release 3 |
+| hvac_0029  | [Variable Speed Pumps](https://docs.nlr.gov/docs/fy26osti/98223.pdf)                                                                        | 2025 Release 3 |
+| hvac_0030  | [Thermostat Setbacks During Unoccupied Periods](https://docs.nlr.gov/docs/fy26osti/98346.pdf)                                               | 2025 Release 3 |
+| hvac_0031  | [Fan Static Pressure Reset for Multizone VAV Systems](https://docs.nlr.gov/docs/fy26osti/98345.pdf)                                         | 2025 Release 3 |
 | ltg_0001   | [LED Lighting](https://www.nlr.gov/docs/fy24osti/86100.pdf)                                                                                 | 2023 Release 1 |
 | ltg_0002   | [Lighting Controls](https://docs.nlr.gov/docs/fy26osti/96597.pdf)                                                                           | 2025 Release 2 |
 | ppl_0001   | [Electric Cooking Equipment](https://www.nlr.gov/docs/fy24osti/89130.pdf)                                                                   | 2024 Release 1 |
@@ -69,7 +69,7 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | dr_0001    | [Thermostat Control for Load Shedding](https://www.nlr.gov/docs/fy24osti/89340.pdf)                                                         | 2024 Release 1 |
 | dr_0002    | [Thermostat Control for Load Shifting](https://www.nlr.gov/docs/fy24osti/89341.pdf)                                                         | 2024 Release 1 |
 | dr_0003    | [Lighting Control for Load Shedding](https://www.nlr.gov/docs/fy26osti/92502.pdf)                                                           | 2024 Release 2 |
-| dr_0004    | Lighting Control for Emission Reduction**                                                                                                   | 2024 Release 2 |
+| dr_0004    | Lighting Control for Emission Reduction<sup>+</sup>                                                                                         | 2024 Release 2 |
 | dr_0005 / dr_0006    | [Thermostat and Lighting Control for Load Shedding](https://www.nlr.gov/docs/fy26osti/92504.pdf)                                  | 2025 Release 1 |
 | dr_0007    | Low Priority Device Switching During Peak Hours**                                                                                           | 2025 Release 1 |
 | dr_0008    | Dim Lighting During Peak Hours**                                                                                                            | 2025 Release 1 |
@@ -84,12 +84,12 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | pkg_0006   | [Comprehensive Geothermal Heat Pump Package, Hydronic GHP, Packaged GHP, or Console GHP](https://www.nlr.gov/docs/fy24osti/89133.pdf)       | 2024 Release 1 |
 | pkg_0007   | [Thermostat and Lighting Control for Load Shedding](https://docs.nlr.gov/docs/fy26osti/92504.pdf)                                           | 2025 Release 1 |
 | pkg_0008   | [Thermostat and Lighting Control for Load Shedding + Photovoltaics With 40% Rooftop Coverage](https://docs.nlr.gov/docs/fy26osti/95013.pdf) | 2025 Release 1 |
-| pkg_0009   | Demand Flexibility, Lighting + Thermostat Control, Load Shed for Daily Bldg Peak Reduction**                                                | 2024 Release 2 |
+| pkg_0009   | [Demand Flexibility, Lighting + Thermostat Control, Load Shed for Daily Bldg Peak Reduction](https://docs.nlr.gov/docs/fy26osti/92504.pdf)  | 2024 Release 2 |
 | pkg_0010   | [Geothermal Heat Pumps + High-Efficiency Envelope Package](https://docs.nlr.gov/docs/fy25osti/95005.pdf)                                    | 2025 Release 1 |
 | pkg_0011   | [Geothermal Heat Pumps + High-Efficiency Envelope + LED Lighting Package](https://docs.nlr.gov/docs/fy25osti/95009.pdf)                     | 2025 Release 1 |
 | pkg_0012   | Photovoltaics With 40% Rooftop Coverage with New Roof**                                                                                     | 2025 Release 2 |
 
-*Measures are included in the initial dataset release and all subsequent releases<br>**Measure documentation expected soon<br><sup>++</sup>Pre-publication version is available, publication expected soon
+*Measures are included in the initial dataset release and all subsequent releases<br>**Measure documentation expected soon<br><sup>+</sup>Publication is unavailable; please email [ComStock@nlr.gov](mailto:ComStock@nlr.gov) with questions<br><sup>++</sup>Pre-publication version is available, publication expected soon
 
 ## Supplemental Documentation
 [Dispatch Schedule Generation for Demand Flexibility Measures](https://www.nlr.gov/docs/fy24osti/89343.pdf)
