@@ -49,7 +49,7 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | hvac_0017  | [Ground-Coupled Console Water-to-Air Heat Pump](https://www.nlr.gov/docs/fy24osti/89132.pdf)                                                | 2024 Release 1 |
 | hvac_0018  | [Heat Pump Rooftop Units With Standard Performance](https://www.nlr.gov/docs/fy25osti/89042.pdf)                                            | 2024 Release 2 |
 | hvac_0019  | [Standard Performance Heat Pump Rooftop Unit with New Roof](https://www.nlr.gov/docs/fy25osti/92618.pdf)                                    | 2024 Release 2 |
-| hvac_0020  | [Heat Pump Rooftop Units With Higher Compressor Lockout Temperature for Heating][8]<sup>++</sup>                                            | 2024 Release 2 |
+| hvac_0020  | [Heat Pump Rooftop Units With Higher Compressor Lockout Temperature for Heating][8]                                                         | 2024 Release 2 |
 | hvac_0021  | Heat Pump Rooftop Units Compliant With the Commercial Building Heat Pump Technology Challenge Specification**                               | 2024 Release 2 |
 | hvac_0022  | [Ideal Thermal Air Loads](https://www.nlr.gov/docs/fy25osti/92546.pdf)                                                                      | 2024 Release 2 |
 | hvac_0023  | [Reduced Thermostat Setbacks for Heat Pumps](https://docs.nlr.gov/docs/fy25osti/95002.pdf)                                                  | 2025 Release 1 |
@@ -65,7 +65,7 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | ltg_0002   | [Lighting Controls](https://docs.nlr.gov/docs/fy26osti/96597.pdf)                                                                           | 2025 Release 2 |
 | ppl_0001   | [Electric Cooking Equipment](https://www.nlr.gov/docs/fy24osti/89130.pdf)                                                                   | 2024 Release 1 |
 | gen_0001   | [Photovoltaics With 40% Rooftop Coverage](https://docs.nlr.gov/docs/fy25osti/95004.pdf)                                                     | 2025 Release 1 |
-| gen_0002   | [Photovoltaics With 40% Rooftop Coverage and Battery Storage][9]<sup>++</sup>                                                               | 2025 Release 2 |
+| gen_0002   | [Photovoltaics With 40% Rooftop Coverage and Battery Storage][9]                                                                            | 2025 Release 2 |
 | dr_0001    | [Thermostat Control for Load Shedding](https://www.nlr.gov/docs/fy24osti/89340.pdf)                                                         | 2024 Release 1 |
 | dr_0002    | [Thermostat Control for Load Shifting](https://www.nlr.gov/docs/fy24osti/89341.pdf)                                                         | 2024 Release 1 |
 | dr_0003    | [Lighting Control for Load Shedding](https://www.nlr.gov/docs/fy26osti/92502.pdf)                                                           | 2024 Release 2 |
@@ -89,7 +89,7 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | pkg_0011   | [Geothermal Heat Pumps + High-Efficiency Envelope + LED Lighting Package](https://docs.nlr.gov/docs/fy25osti/95009.pdf)                     | 2025 Release 1 |
 | pkg_0012   | Photovoltaics With 40% Rooftop Coverage with New Roof**                                                                                     | 2025 Release 2 |
 
-*Measures are included in the initial dataset release and all subsequent releases<br>**Measure documentation expected soon<br><sup>+</sup>Publication is unavailable; please email [ComStock@nlr.gov](mailto:ComStock@nlr.gov) with questions<br><sup>++</sup>Pre-publication version is available, publication expected soon
+*Measures are included in the initial dataset release and all subsequent releases<br>**Measure documentation expected soon<br><sup>+</sup>Publication is unavailable; please email [ComStock@nlr.gov](mailto:ComStock@nlr.gov) with questions
 
 ## Supplemental Documentation
 [Dispatch Schedule Generation for Demand Flexibility Measures](https://www.nlr.gov/docs/fy24osti/89343.pdf)
