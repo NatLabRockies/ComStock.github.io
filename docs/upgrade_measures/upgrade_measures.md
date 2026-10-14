@@ -69,10 +69,10 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | dr_0001    | [Thermostat Control for Load Shedding](https://www.nlr.gov/docs/fy24osti/89340.pdf)                                                         | 2024 Release 1 |
 | dr_0002    | [Thermostat Control for Load Shifting](https://www.nlr.gov/docs/fy24osti/89341.pdf)                                                         | 2024 Release 1 |
 | dr_0003    | [Lighting Control for Load Shedding](https://www.nlr.gov/docs/fy26osti/92502.pdf)                                                           | 2024 Release 2 |
-| dr_0004    | Lighting Control for Emission Reduction<sup>+</sup>                                                                                         | 2024 Release 2 |
+| dr_0004    | [Lighting Control for Emission Reduction][10]++                                                                                             | 2024 Release 2 |
 | dr_0005 / dr_0006    | [Thermostat and Lighting Control for Load Shedding](https://www.nlr.gov/docs/fy26osti/92504.pdf)                                  | 2025 Release 1 |
-| dr_0007    | Low Priority Device Switching During Peak Hours**                                                                                           | 2025 Release 1 |
-| dr_0008    | Dim Lighting During Peak Hours**                                                                                                            | 2025 Release 1 |
+| dr_0007    | [Low Priority Device Switching During Peak Hours][11]++                                                                                     | 2025 Release 1 |
+| dr_0008    | [Dim Lighting During Peak Hours][12]++                                                                                                      | 2025 Release 1 |
 | dr_0009    | Electric HVAC Temperature Setpoint Adjustment During Peak Hours**                                                                           | 2025 Release 1 |
 | dr_0010    | Electric HVAC Preheating by Thermostat Control**                                                                                            | 2025 Release 1 |
 | dr_0011    | Electric HVAC Precooling by Thermostat Control**                                                                                            | 2025 Release 1 |
@@ -89,7 +89,7 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | pkg_0011   | [Geothermal Heat Pumps + High-Efficiency Envelope + LED Lighting Package](https://docs.nlr.gov/docs/fy25osti/95009.pdf)                     | 2025 Release 1 |
 | pkg_0012   | Photovoltaics With 40% Rooftop Coverage with New Roof**                                                                                     | 2025 Release 2 |
 
-*Measures are included in the initial dataset release and all subsequent releases<br>**Measure documentation expected soon<br><sup>+</sup>Publication is unavailable; please email [ComStock@nlr.gov](mailto:ComStock@nlr.gov) with questions
+*Measures are included in the initial dataset release and all subsequent releases<br>**Measure documentation expected soon<br>++ Pre-publication version is available, publication expected soon
 
 ## Supplemental Documentation
 [Dispatch Schedule Generation for Demand Flexibility Measures](https://www.nlr.gov/docs/fy24osti/89343.pdf)
@@ -108,3 +108,6 @@ Note: Webinars are not held for every ComStock dataset release.
 [1]:../../assets/files/measure_name_crosswalk_2025_3.csv
 [8]:../../assets/files/ComStock Measure Doc_HP RTU Higher Compressor Lockout.pdf
 [9]:../../assets/files/ComStock Measure Doc_PV with Battery Storage.pdf
+[10]:../../assets/files/ComStock Measure Doc_Lighting Control for Emission Reduction.docx
+[11]:../../assets/files/ComStock Measure Doc_Low Priority Device Switching During Peak Hours.docx
+[12]:../../assets/files/ComStock Measure Doc_Dim Lighting During Peak Hours.docx
