@@ -2,7 +2,9 @@ title: ComStock
 description: ComStock Documentation
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
-url: https://github.com/natlabrockies/ComStock.github.io
+# Host only. GitHub Pages adds baseurl (/ComStock.github.io) for this project site,
+# so canonical tags and the sitemap resolve to https://natlabrockies.github.io/ComStock.github.io/...
+url: https://natlabrockies.github.io
 logo: "/assets/images/ComStock_color_hort-transparent.png"
 favicon_ico: "/assets/images/favicon.ico"
 search_enabled: true
@@ -10,6 +12,15 @@ aux_links:
   "ComStock on GitHub":
     - "https://github.com/NatLabRockies/ComStock"
 aux_links_new_tab: true
+
+# jekyll-sitemap is on the GitHub Pages plugin whitelist; it writes /sitemap.xml
+# (named in robots.txt) so crawlers and AI indexers can find every page.
+plugins:
+  - jekyll-sitemap
+
+# Working notes, never published with the site.
+exclude:
+  - PLAN.md
 
 footer_content:
   The National Laboratory of the Rockies is a national laboratory of the

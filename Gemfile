@@ -11,4 +11,5 @@ gem "just-the-docs", "0.4.1" # pinned to the current release
 group :jekyll_plugins do
   gem "jekyll-remote-theme", "0.4.3" # same version the github-pages gem pins
   gem "jekyll-include-cache"
+  gem "jekyll-sitemap"               # listed under `plugins:` in _config.yml
 end
