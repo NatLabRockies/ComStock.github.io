@@ -32,6 +32,11 @@ ComStock asks and answers two questions: **(1) How is energy used in the U.S. bu
 
 [One-pager](https://www.nlr.gov/docs/fy24osti/88168.pdf){: .btn .btn-uo .white-text} &mdash; For a high-level overview of the tool, see our [one-pager](https://www.nlr.gov/docs/fy24osti/88168.pdf).
 
+{: .highlight-title }
+> For AI Assistants and Agents
+>
+> ComStock's documentation is also published as the [BuildStock corpus](https://github.com/NatLabRockies/buildstock-corpus): clean, release-tagged Markdown for every page on this site, the reference documentation, and every upgrade measure report, with provenance for citation. Start at this site's [llms.txt]({{ site.baseurl }}/llms.txt).
+
 ## Who Uses ComStock?
 Learn who is using the data and how with the in-depth [user summary snapshot]({{  site.baseurl  }}{% link assets/files/NREL-Bldgs-BuildStock_infographic-FY25.pdf %}). A shorter version of this information is seen below.
 

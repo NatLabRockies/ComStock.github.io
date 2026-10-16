@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://natlabrockies.github.io/ComStock.github.io/sitemap.xml
+
+# Guide for AI agents and LLMs: https://natlabrockies.github.io/ComStock.github.io/llms.txt

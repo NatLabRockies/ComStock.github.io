@@ -1,0 +1,30 @@
+# ComStock
+
+> ComStock is a bottom-up model of the U.S. commercial building stock, developed by the National Laboratory of the Rockies (NLR) for the U.S. Department of Energy. It uses statistical sampling and EnergyPlus simulations to estimate subhourly energy use for the stock and the impact of energy-saving upgrade measures. This site documents the model, its published datasets, and its upgrade measures.
+
+## Start here for AI agents
+
+ComStock's documentation is published in an AI-ready form as the BuildStock corpus: clean, release-tagged Markdown for every page on this site, the reference documentation, and every upgrade-measure report, with a provenance header on line 1 of each file. Read from the corpus rather than scraping this site.
+
+- [Corpus llms.txt](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/llms.txt): the corpus's own discovery file; it names the current release tag
+- [AGENTS.md](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/AGENTS.md): how to read and cite the corpus
+- [index.json](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/processed/comstock/comstock_amy2018_2025_release_3/index.json): every document and measure with its path, status, links, size, and section files
+- [buildstock-corpus on GitHub](https://github.com/NatLabRockies/buildstock-corpus): the repository
+
+The links above use `main`, which moves on every rebuild. To cite, pin to a release tag of the form `<release id>-v<N>`; tags never move. The current tag is named in the corpus llms.txt.
+
+## Site pages
+
+- [Getting Started](https://natlabrockies.github.io/ComStock.github.io/): what ComStock is and who uses it
+- [Data](https://natlabrockies.github.io/ComStock.github.io/docs/data.html): published dataset releases, data viewer, OEDI data lake, data structure
+- [Upgrade Measures](https://natlabrockies.github.io/ComStock.github.io/docs/upgrade_measures/upgrade_measures.html): every measure and package with its measure ID, documentation link, and first release
+- [Resources](https://natlabrockies.github.io/ComStock.github.io/docs/resources/resources.html): tutorials, how-to guides, explanations, known issues, limitations
+- [Reference Documentation](https://natlabrockies.github.io/ComStock.github.io/docs/resources/resources.html#references): methodology and assumptions behind the model
+- [FAQ](https://natlabrockies.github.io/ComStock.github.io/docs/faq.html)
+- [For Developers](https://natlabrockies.github.io/ComStock.github.io/docs/for_developers/for_developers.html): related GitHub repositories
+- [Citation and Data Attribution](https://natlabrockies.github.io/ComStock.github.io/docs/citation.html)
+- [Contact](https://natlabrockies.github.io/ComStock.github.io/docs/contact.html)
+
+## Citing
+
+Cite the dataset and the reference documentation as given on the [citation page](https://natlabrockies.github.io/ComStock.github.io/docs/citation.html). When quoting from the corpus, follow the citing rules in [AGENTS.md](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/AGENTS.md): name the source, the publication URL, and the corpus release tag you read.

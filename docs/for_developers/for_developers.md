@@ -36,6 +36,11 @@ Execution of the ComStock workflow is managed through the `buildstockbatch` repo
 
 [BuildStockQuery Repository](https://github.com/NatLabRockies/buildstock-query){: .btn .btn-uo .white-text}
 
+## BuildStock Corpus Repository
+`buildstock-corpus` publishes ComStock's documentation in an AI-ready form: clean Markdown for every page on this website, the reference documentation, and every upgrade measure report, organized by dataset release. Every file opens with a provenance header naming its source, publication status, and corpus release tag, so an LLM or agent can read and cite it directly without scraping this site. Each corpus build is tagged and tags never move, so a citation resolves to the same text later. Agents should start with the repository's `AGENTS.md`, which explains how to read and cite the corpus, or with this site's [llms.txt]({{ site.baseurl }}/llms.txt).
+
+[BuildStock Corpus Repository](https://github.com/NatLabRockies/buildstock-corpus){: .btn .btn-uo .white-text}
+
 ## Example Jupyter Notebooks
 Helpful notebooks are posted to this page.  We have also heard many folks have success with ChatGPT writing custom scripts.
 
