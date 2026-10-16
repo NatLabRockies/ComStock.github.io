@@ -87,7 +87,7 @@ Release webinar recordings and slides can be found at the [bottom of the page](#
 | pkg_0009   | [Demand Flexibility, Lighting + Thermostat Control, Load Shed for Daily Bldg Peak Reduction](https://docs.nlr.gov/docs/fy26osti/92504.pdf)  | 2024 Release 2 |
 | pkg_0010   | [Geothermal Heat Pumps + High-Efficiency Envelope Package](https://docs.nlr.gov/docs/fy25osti/95005.pdf)                                    | 2025 Release 1 |
 | pkg_0011   | [Geothermal Heat Pumps + High-Efficiency Envelope + LED Lighting Package](https://docs.nlr.gov/docs/fy25osti/95009.pdf)                     | 2025 Release 1 |
-| pkg_0012   | [Photovoltaics With 40% Rooftop Coverage with New Roof][13]+                                                                                | 2025 Release 2 |
+| pkg_0012   | [Photovoltaics With 40% Rooftop Coverage With Roof Insulation][13]+                                                                         | 2025 Release 2 |
 
 *Measures are included in the initial dataset release and all subsequent releases<br>**Measure documentation expected soon<br>+ Pre-publication version is available, publication expected soon
 
@@ -111,4 +111,4 @@ Note: Webinars are not held for every ComStock dataset release.
 [10]:../../assets/files/ComStock Measure Doc_Lighting Control for Emission Reduction.pdf
 [11]:../../assets/files/ComStock Measure Doc_Low Priority Device Switching During Peak Hours.pdf
 [12]:../../assets/files/ComStock Measure Doc_Dim Lighting During Peak Hours.pdf
-[13]:../../assets/files/ComStock Measure Doc_PV with New Roof.pdf
+[13]:../../assets/files/ComStock Measure Doc_PV with Roof Insulation.pdf
