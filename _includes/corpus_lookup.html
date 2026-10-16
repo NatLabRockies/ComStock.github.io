@@ -1,0 +1,22 @@
+{% comment %}
+Finds the current page's copy in the BuildStock corpus.
+
+Reads _data/corpus_index.json (refreshed weekly by .github/workflows/sync-corpus-index.yml)
+and matches the page's live URL against each document's publication_url. Sets:
+  corpus_index    the whole index (nil when the data file is absent)
+  corpus_doc      the matching document row, or nil
+  corpus_doc_url  raw.githubusercontent.com URL of that document, pinned to the corpus
+                  release tag so the link never drifts
+Jekyll includes share the caller's scope, so these variables are visible after the include.
+{% endcomment %}
+{% assign corpus_index = site.data.corpus_index %}
+{% assign corpus_doc = nil %}
+{% assign corpus_doc_url = nil %}
+{% if corpus_index and page.url %}
+  {% assign corpus_live_page = site.live_url | append: page.url %}
+  {% assign corpus_matches = corpus_index.documents | where: "publication_url", corpus_live_page %}
+  {% if corpus_matches.size > 0 %}
+    {% assign corpus_doc = corpus_matches | first %}
+    {% assign corpus_doc_url = "https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/" | append: corpus_index.corpus_version | append: "/processed/" | append: corpus_index.product | append: "/" | append: corpus_index.release | append: "/" | append: corpus_doc.corpus_path %}
+  {% endif %}
+{% endif %}

@@ -1,0 +1,53 @@
+{% comment %}
+schema.org Dataset description of the BuildStock corpus, for search engines, dataset
+search tools and AI crawlers. Values come from _data/corpus_index.json so the version
+and counts follow the corpus release automatically.
+{% endcomment %}
+{% assign ci = site.data.corpus_index %}
+{% if ci %}
+{% assign ci_base = "https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/" | append: ci.corpus_version | append: "/processed/" | append: ci.product | append: "/" | append: ci.release | append: "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "BuildStock corpus: ComStock documentation ({{ ci.release }})",
+  "description": "AI-ready corpus of ComStock documentation: {{ ci.counts.documents }} documents and {{ ci.counts.measures }} upgrade measures from the ComStock website, the ComStock reference documentation and the upgrade measure reports, extracted to clean, release-tagged Markdown with a provenance header on every file, a machine index (index.json) and a human-readable map (CORPUS_MAP.md). One dataset release per folder; this entry describes {{ ci.release }}.",
+  "url": "https://github.com/NatLabRockies/buildstock-corpus",
+  "sameAs": "https://github.com/NatLabRockies/buildstock-corpus/releases/tag/{{ ci.corpus_version }}",
+  "identifier": "{{ ci.corpus_version }}",
+  "version": "{{ ci.corpus_version }}",
+  "license": "https://opensource.org/license/bsd-3-clause",
+  "isAccessibleForFree": true,
+  "isBasedOn": "{{ site.live_url }}/",
+  "keywords": ["ComStock", "BuildStock", "commercial building stock", "building energy modeling", "energy efficiency upgrade measures", "EnergyPlus", "OpenStudio", "llms.txt", "AI-ready documentation"],
+  "creator": {
+    "@type": "Organization",
+    "name": "National Laboratory of the Rockies",
+    "url": "https://www.nlr.gov"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "index.json",
+      "description": "Every document and measure with its path, publication status, source and publication URLs, size and section files.",
+      "encodingFormat": "application/json",
+      "contentUrl": "{{ ci_base }}index.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "CORPUS_MAP.md",
+      "description": "Readable map of the corpus with the measure to upgrade-id to document routing table.",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "{{ ci_base }}CORPUS_MAP.md"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "AGENTS.md",
+      "description": "How to read and cite the corpus.",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/{{ ci.corpus_version }}/AGENTS.md"
+    }
+  ]
+}
+</script>
+{% endif %}

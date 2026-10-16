@@ -41,6 +41,8 @@ Execution of the ComStock workflow is managed through the `buildstockbatch` repo
 
 [BuildStock Corpus Repository](https://github.com/NatLabRockies/buildstock-corpus){: .btn .btn-uo .white-text}
 
+{% include corpus_dataset_jsonld.html %}
+
 ## Example Jupyter Notebooks
 Helpful notebooks are posted to this page.  We have also heard many folks have success with ChatGPT writing custom scripts.
 

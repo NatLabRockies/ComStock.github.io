@@ -5,6 +5,9 @@ remote_theme: pmarsceill/just-the-docs
 # Host only. GitHub Pages adds baseurl (/ComStock.github.io) for this project site,
 # so canonical tags and the sitemap resolve to https://natlabrockies.github.io/ComStock.github.io/...
 url: https://natlabrockies.github.io
+# Full address of the published site, used to match pages against the BuildStock corpus
+# (_data/corpus_index.json records each document's publication_url on this host).
+live_url: https://natlabrockies.github.io/ComStock.github.io
 logo: "/assets/images/ComStock_color_hort-transparent.png"
 favicon_ico: "/assets/images/favicon.ico"
 search_enabled: true
