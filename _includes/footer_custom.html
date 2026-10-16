@@ -1,6 +1,13 @@
+{% comment %}
+Overrides the theme's footer_custom.html. The theme's own copy is what prints
+site.footer_content, so this file must print it too or the NLR footer text disappears.
+{% endcomment %}
+{% if site.footer_content != nil %}
+<p class="text-small mb-0">{{ site.footer_content }}</p>
+{% endif %}
 {% include corpus_lookup.html %}
 {% if corpus_doc %}
-<p class="text-small mb-0">
+<p class="text-small mb-0 mt-2">
   Machine-readable copy: <a href="{{ corpus_doc_url }}">read this page as Markdown in buildstock-corpus</a>
   (release <code>{{ corpus_index.corpus_version }}</code>, with provenance and citation details on line 1).
 </p>
