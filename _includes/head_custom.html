@@ -1,2 +1,7 @@
 <!-- Discovery file for LLMs and AI agents; points to the BuildStock corpus. -->
 <link rel="alternate" type="text/plain" href="{{ '/llms.txt' | relative_url }}" title="llms.txt">
+{% include corpus_lookup.html %}
+{% if corpus_doc %}
+<!-- This page's release-tagged Markdown copy in the BuildStock corpus. -->
+<link rel="alternate" type="text/markdown" href="{{ corpus_doc_url }}" title="Markdown in buildstock-corpus">
+{% endif %}

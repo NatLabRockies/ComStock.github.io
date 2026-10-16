@@ -1,0 +1,7 @@
+{% include corpus_lookup.html %}
+{% if corpus_doc %}
+<p class="text-small mb-0">
+  Machine-readable copy: <a href="{{ corpus_doc_url }}">read this page as Markdown in buildstock-corpus</a>
+  (release <code>{{ corpus_index.corpus_version }}</code>, with provenance and citation details on line 1).
+</p>
+{% endif %}
