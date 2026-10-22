@@ -47,6 +47,7 @@ These documents provide explanations focusing on the *how* and *why* of various 
 - [Using ComStock to Analyze Cost]({{  site.baseurl  }}{% link docs/resources/explanations/costing_analysis.md %})
 - [Why Individual ComStock Measure Results Should Not Be Combined]({{  site.baseurl  }}{% link docs/resources/explanations/combining_measure_results.md %})
 - [Commercial Building Load Components Data and Analysis]({{  site.baseurl  }}{% link docs/resources/explanations/component_loads.md %})<span class="label label-blue">NEW</span>
+- [ComStock Building Counts]({{  site.baseurl  }}{% link docs/resources/explanations/comstock_building_counts.md %})<span class="label label-blue">NEW</span>
 
 ### ComStock Limitations
 - [Building Types Not Included in ComStock]({{  site.baseurl  }}{% link docs/resources/explanations/building_types_not_included.md %})<span class="label label-green">UPDATE</span>
