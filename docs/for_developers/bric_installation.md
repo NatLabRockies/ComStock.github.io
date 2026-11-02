@@ -16,6 +16,7 @@ There are two ways to install the app:
 
 <details open markdown="block">
 <summary>Contents</summary>
+{::options toc_levels="2" /}
 1. TOC
 {:toc}
 </details>
@@ -81,150 +82,29 @@ Next, set up your [OpenEI API key](#openei-api-key-optional).
 
 ## Option 2: Install with pixi
 
-This option installs pixi (a tool that manages Python and the app's packages), downloads the source code, and runs the app from a terminal.
+Use this option if you want to change the code, or if Option 1 doesn't work on your computer. Installing pixi may need administrator rights.
 
-### What you'll need before you start
-
-You do not need to know Python or VS Code, but you will use a **terminal** (a text window where you type commands).
-
-You will need:
-
-- A computer running Windows, macOS, or Linux.
-- A web browser (Chrome, Edge, Firefox, Safari, etc.).
-- An internet connection (to download the code and dependencies).
-- Basic ability to copy and paste text.
-- Administrator rights to install pixi and Python on your computer.
-
-### Step 1: Install pixi
-
-The project uses **pixi**, a tool that installs Python and all required packages for you, so you do not have to install Python or libraries manually.
-
-1.	Open a web browser and go to the pixi installation page: <https://pixi.prefix.dev/latest/installation/>
-2.	Follow the instructions on that page for your operating system:
-    - On **Windows**, you will likely download an installer and run it. Or open PowerShell and paste this command:
-
-      ```powershell
-      powershell -ExecutionPolicy Bypass -c "irm -useb https://pixi.sh/install.ps1 | iex"
-      ```
-
-    - On **macOS** or **Linux**, you may run a command in the terminal.
-3.	When the pixi installation finishes, close any open terminal windows and open a new one. This is important so that your system can find the `pixi` command.
-4.	To check that pixi is installed correctly, type this into the terminal and press Enter:
+1.	Install [pixi](https://pixi.prefix.dev/latest/installation/), then open a new terminal so the `pixi` command is found.
+2.	Get the code, either by cloning it or by downloading the ZIP from the [repository](https://github.com/NatLabRockies/buildstock-rate-impact-calculator) (**Code → Download ZIP**) and unzipping it:
 
     ```bash
-    pixi --version
+    git clone https://github.com/NatLabRockies/buildstock-rate-impact-calculator.git
+    cd buildstock-rate-impact-calculator
     ```
 
-    - If you see a version number, pixi is installed correctly.
-    - If you see an error like `command not found`, go back to the pixi installation page and make sure you followed the steps for your operating system.
+3.	From the project folder, install the environment. The first run takes a few minutes.
 
-### Step 2: Open a terminal
+    ```bash
+    pixi install
+    ```
 
-You will run all commands in a **terminal** (also called "Command Prompt" or "PowerShell" on Windows). To open one:
+4.	Start the app, then open the address it prints (usually `http://localhost:8501`) in your browser:
 
-- **Windows:** Press the Windows key, type `PowerShell` or `Command Prompt`, and click the result.
-- **macOS:** Open **Finder**, go to **Applications → Utilities**, and open **Terminal**.
-- **Linux:** Open **Terminal** from your applications menu.
+    ```bash
+    pixi run app
+    ```
 
-Keep this terminal window open. You will paste commands into it in the next steps.
-
-### Step 3: Download the project
-
-In this step, you will download the project files from GitHub onto your computer. If you already have **git** installed and know how to use it, you can use the `git clone` command in Option B. If you do not have git, or you are not sure, use the ZIP download in Option A.
-
-#### Option A: Download as ZIP (recommended for beginners)
-
-1.	Open the [repository on GitHub](https://github.com/NatLabRockies/buildstock-rate-impact-calculator).
-2.	Click the green **Code** button.
-3.	Click **Download ZIP**.
-4.	When the ZIP file finishes downloading, unzip it:
-    - On **Windows:** Right-click the ZIP file and choose **Extract All...**
-    - On **macOS:** Double-click the ZIP file.
-    - On **Linux:** Use your file manager's extract option.
-5.	After unzipping, you should see a folder named something like `buildstock-rate-impact-calculator-main`.
-
-#### Option B: Clone with git
-
-In your terminal, copy and paste the following commands, pressing Enter after each line:
-
-```bash
-git clone https://github.com/NatLabRockies/buildstock-rate-impact-calculator.git
-cd buildstock-rate-impact-calculator
-```
-
-To paste into the terminal:
-
-- **Windows:** Click in the terminal and press `Ctrl+V`.
-- **macOS:** Click in the terminal and press `Command+V`.
-- **Linux:** Click in the terminal and press `Ctrl+Shift+V`.
-
-If you used Option A, do not run `git clone`. Continue to the next step.
-
-### Step 4: Move into the project folder
-
-If you used the `git clone` option, you are already in the folder and can skip to Step 5.
-
-If you downloaded the ZIP file:
-
-1.	In the terminal, type `cd` followed by a space.
-2.	Drag the **unzipped** project folder into the terminal window. This pastes the folder path automatically.
-3.	Press Enter.
-
-It should look something like this:
-
-```bash
-cd "/Users/yourname/Downloads/buildstock-rate-impact-calculator-main"
-```
-
-To check that you are in the correct folder, type:
-
-```bash
-ls
-```
-
-On Windows Command Prompt, use:
-
-```bat
-dir
-```
-
-You should see files like `README.md` and `pixi.toml`.
-
-### Step 5: Install the project environment
-
-Now that you are inside the project folder, install everything the app needs by running:
-
-```bash
-pixi install
-```
-
-This command downloads and installs Python and all required packages into an isolated environment. The first run may take a few minutes. Wait until the command finishes and the terminal is ready again.
-
-If you see an error saying pixi is not recognized or not found, return to Step 1 and make sure pixi is installed correctly and that you opened a new terminal window after installing it.
-
-### Step 6: Run the app
-
-Once `pixi install` finishes successfully, start the app by running:
-
-```bash
-pixi run app
-```
-
-This starts the Streamlit development server. The terminal will print a local web address, usually:
-
-```
-http://localhost:8501
-```
-
-To open the app, copy the URL from the terminal, paste it into your web browser's address bar, and press Enter. The BuildStock Rate Impact Calculator should now open in your browser.
-
-Each time you want to run the app again later:
-
-1.	Open a terminal.
-2.	Move into the project folder.
-3.	Run `pixi run app`.
-
-Leave the terminal open while the app is running. To stop the app, click **Quit app** at the bottom of the app's sidebar, or press `Ctrl+C` in the terminal. The app also stops on its own about 2 minutes after you close its last browser tab.
+To stop the app, click **Quit app** at the bottom of the app's sidebar or press `Ctrl+C` in the terminal. The app also stops on its own about 2 minutes after you close its last browser tab.
 
 ## OpenEI API key (optional)
 
