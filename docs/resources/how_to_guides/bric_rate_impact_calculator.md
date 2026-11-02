@@ -8,8 +8,6 @@ nav_order: 11
 # How-to: Calculate Custom Rates with the BuildStock Rate Impact Calculator
 {: .no_toc }
 
-*This guide is adapted from the [BuildStock Rate Impact Calculator User Guide](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/blob/main/docs/user_guide.md). The version in the tool's repository is updated with each release of the app.*
-
 The BuildStock Rate Impact Calculator (BRIC) estimates how utility rate structures and building efficiency upgrades interact to affect customer energy bills across a region. It combines NLR's ResStock (residential) and ComStock (commercial) building stock datasets with PySAM's utility rate engine to bill thousands of simulated buildings under real or custom tariffs, before and after an upgrade, and optionally under several alternative rate designs at once.
 
 The calculator can help answer questions such as:
@@ -27,11 +25,8 @@ This guide covers the workflow, explains how sampling **weights** work in each d
 
 ## Before you start
 
-1.	**Download the app** from the [latest release](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/latest). Stand-alone zip files are available for Windows, macOS, and Linux. Unzip the file and double-click the app; no installation is needed. Step-by-step instructions are in the [installation guide](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/blob/main/docs/bric-installation-instructions.md).
+1.	**[Download the app]({{  site.baseurl  }}{% link docs/for_developers/bric_installation.md %}#download).** Stand-alone zip files are available for Windows, macOS, and Linux. Unzip the file and double-click the app; no installation is needed. Step-by-step instructions, including how to run the app from source, are in [Install the BuildStock Rate Impact Calculator]({{  site.baseurl  }}{% link docs/for_developers/bric_installation.md %}).
 2.	**Get a free OpenEI API key** by registering at <https://openei.org/services/api/signup/>. The key is needed to look up utility rates. Paste it into **Setup → OpenEI API Key** in the app's sidebar.
-
-Developers can also run the app from source; see the [repository README](https://github.com/NatLabRockies/buildstock-rate-impact-calculator).
-
 ## Concepts
 
 **Datasets.** ResStock and ComStock are NLR simulations of the U.S. residential and commercial building stock. Each dataset release contains tens of thousands of *building models* (statistically sampled combinations of building characteristics) with simulated energy use at 15-minute resolution for a 2018 actual meteorological year (AMY) weather file. Supported releases are ResStock 2024.2 and 2025.1, and ComStock 2024.2 and 2025.3.

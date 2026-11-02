@@ -36,6 +36,12 @@ Execution of the ComStock workflow is managed through the `buildstockbatch` repo
 
 [BuildStockQuery Repository](https://github.com/NatLabRockies/buildstock-query){: .btn .btn-uo .white-text}
 
+## BuildStock Rate Impact Calculator Repository
+`buildstock-rate-impact-calculator` (BRIC) is a Streamlit web application that estimates how utility rate structures and building upgrades affect customer energy bills, using ResStock and ComStock simulation data and PySAM's utility rate engine. It can be downloaded as a stand-alone app or run from source with pixi. To learn how to use it, see [Calculate Custom Rates with the BuildStock Rate Impact Calculator]({{  site.baseurl  }}{% link docs/resources/how_to_guides/bric_rate_impact_calculator.md %}).
+
+[Installation Instructions]({{  site.baseurl  }}{% link docs/for_developers/bric_installation.md %}){: .btn .btn-uo .white-text}
+[BuildStock Rate Impact Calculator Repository](https://github.com/NatLabRockies/buildstock-rate-impact-calculator){: .btn .btn-uo .white-text}
+
 ## BuildStock Corpus Repository
 `buildstock-corpus` publishes ComStock's documentation in an AI-ready form: clean Markdown for every page on this website, the reference documentation, and every upgrade measure report, organized by dataset release. Every file opens with a provenance header naming its source, publication status, and corpus release tag, so an LLM or agent can read and cite it directly without scraping this site. Each corpus build is tagged and tags never move, so a citation resolves to the same text later. Agents should start with the repository's `AGENTS.md`, which explains how to read and cite the corpus, or with this site's [llms.txt]({{ site.baseurl }}/llms.txt).
 
