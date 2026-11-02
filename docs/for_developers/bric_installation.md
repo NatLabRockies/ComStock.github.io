@@ -25,14 +25,14 @@ There are two ways to install the app:
 
 ### Download
 
-1.	Download the zip file for your computer. The current version is v0.9.0; earlier versions are on the [releases page](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases).
+1.	Download the zip file for your computer. These links always get the latest release; release notes and earlier versions are on the [releases page](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases).
 
-    | Computer | File | Size |
-    |---|---|---|
-    | Windows | [BRIC-v0.9.0-win-64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/download/v0.9.0/BRIC-v0.9.0-win-64.zip) | 207 MB |
-    | Mac with Apple silicon (M1 or newer) | [BRIC-v0.9.0-osx-arm64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/download/v0.9.0/BRIC-v0.9.0-osx-arm64.zip) | 198 MB |
-    | Mac with an Intel processor | [BRIC-v0.9.0-osx-64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/download/v0.9.0/BRIC-v0.9.0-osx-64.zip) | 211 MB |
-    | Linux | [BRIC-v0.9.0-linux-64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/download/v0.9.0/BRIC-v0.9.0-linux-64.zip) | 274 MB |
+    | Computer | File |
+    |---|---|
+    | Windows | [BRIC-win-64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/latest/download/BRIC-win-64.zip) |
+    | Mac with Apple silicon (M1 or newer) | [BRIC-osx-arm64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/latest/download/BRIC-osx-arm64.zip) |
+    | Mac with an Intel processor | [BRIC-osx-64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/latest/download/BRIC-osx-64.zip) |
+    | Linux | [BRIC-linux-64.zip](https://github.com/NatLabRockies/buildstock-rate-impact-calculator/releases/latest/download/BRIC-linux-64.zip) |
 
     On a Mac, choose **Apple menu → About This Mac**. "Chip: Apple M…" means Apple silicon; "Processor: Intel…" means Intel.
 
