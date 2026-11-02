@@ -30,6 +30,7 @@ This section provides lessons for understanding certain capabilities and functio
 This section provides a collection of step-by-step guides for using the ComStock dataset to answer a given question. 
 
 - [Access the ComStock datasets programmatically]({{  site.baseurl  }}{% link docs/resources/how_to_guides/example_scripts.md %})<span class="label label-green">UPDATE</span>
+- [Calculate custom rates with the BuildStock Rate Impact Calculator]({{  site.baseurl  }}{% link docs/resources/how_to_guides/bric_rate_impact_calculator.md %})<span class="label label-blue">NEW</span>
 - [Filter the building characteristics dashboard for a county]({{  site.baseurl  }}{% link docs/resources/how_to_guides/characteristics_dashboard.md %})
 - [Perform a basic commercial building stock segmentation analysis in Excel]({{  site.baseurl  }}{% link docs/resources/how_to_guides/basic_stock_characterization_workbook.md %})
 - [Perform a commercial building stock characterization and upgrades impact analysis in Excel]({{  site.baseurl  }}{% link docs/resources/how_to_guides/impact_workbook.md %})<span class="label label-blue">NEW</span>
