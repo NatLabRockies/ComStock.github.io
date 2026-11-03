@@ -1,0 +1,16 @@
+<!-- Collapses the page's Contents list to its top level; readers expand a section to see its subsections. Without JavaScript the full list shows. -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("#markdown-toc > li").forEach(function (item) {
+      var link = item.querySelector(":scope > a");
+      var sublist = item.querySelector(":scope > ul, :scope > ol");
+      if (!link || !sublist) return;
+      var details = document.createElement("details");
+      var summary = document.createElement("summary");
+      summary.appendChild(link);
+      details.appendChild(summary);
+      details.appendChild(sublist);
+      item.appendChild(details);
+    });
+  });
+</script>

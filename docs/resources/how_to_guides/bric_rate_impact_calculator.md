@@ -22,11 +22,13 @@ This guide covers the workflow, explains how sampling **weights** work in each d
 1. TOC
 {:toc}
 </details>
+{% include collapsible_toc.html %}
 
 ## Before you start
 
 1.	**[Download the app]({{  site.baseurl  }}{% link docs/for_developers/bric_installation.md %}#download).** Stand-alone zip files are available for Windows, macOS, and Linux. Unzip the file and double-click the app; no installation is needed. Step-by-step instructions, including how to run the app from source, are in [Install the BuildStock Rate Impact Calculator]({{  site.baseurl  }}{% link docs/for_developers/bric_installation.md %}).
 2.	**Get a free OpenEI API key** by registering at <https://openei.org/services/api/signup/>. The key is needed to look up utility rates. Paste it into **Setup → OpenEI API Key** in the app's sidebar.
+
 ## Concepts
 
 **Datasets.** ResStock and ComStock are NLR simulations of the U.S. residential and commercial building stock. Each dataset release contains tens of thousands of *building models* (statistically sampled combinations of building characteristics) with simulated energy use at 15-minute resolution for a 2018 actual meteorological year (AMY) weather file. Supported releases are ResStock 2024.2 and 2025.1, and ComStock 2024.2 and 2025.3.
