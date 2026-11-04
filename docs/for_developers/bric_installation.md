@@ -116,21 +116,6 @@ Some features, such as utility rate lookups, require a free API key from OpenEI.
 4.	In the app's sidebar, find the **OpenEI API Key** field under **Setup**.
 5.	Paste your API key into that field.
 
-## Using VS Code (optional)
-
-You do **not** need VS Code to run the app. If you want to use it anyway:
-
-1.	Download and install VS Code from <https://code.visualstudio.com/>.
-2.	Open VS Code.
-3.	Click **File → Open Folder...** and choose the project folder.
-4.	Click **Terminal → New Terminal**.
-5.	Run the same commands in the VS Code terminal:
-
-    ```bash
-    pixi install
-    pixi run app
-    ```
-
 ## Development commands
 
 If you are contributing to the project, run these commands from the project folder:
