@@ -64,6 +64,8 @@ These documents provide explanations focusing on the *how* and *why* of various 
 - [2025 Release 2: Hawaii AMY2012 Weather Files]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_2_hi_known_issue.md %})
 - [2025 Release 3: California Service Water Heating]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_3_ca_swh_known_issue.md %})<span class="label label-blue">NEW</span>
 - [2025 Release 3: Heat Pump and Envelope Package Naming]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_3_packages_known_issue.md %})<span class="label label-blue">NEW</span>
+- [2025 Release 3: Supply Fan Motor Efficiency in Older HVAC Systems]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_3_fan_motor_efficiency_known_issue.md %})<span class="label label-blue">NEW</span>
+
 
 ## Training Videos
 Webinars, presentations, and guidance on the ComStock and ResStock datasets—including training videos on accessing the datasets, using the Data Viewer, and more—are available on [NLR’s Building Stock Analysis YouTube channel](https://www.youtube.com/playlist?list=PLmIn8Hncs7bEYCZiHaoPSovoBrRGR-tRS). See below for a sample of available videos. For the full collection, visit the YouTube channel.

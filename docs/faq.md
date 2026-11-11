@@ -29,7 +29,7 @@ Expand the sections below for answers to frequently asked questions. If you have
   <li class="acc" id="faq-year-section"><input id="faq-year" type="checkbox" /><label for="faq-year">What year does the baseline stock represent?</label>
     <div class="show">
       <p>The ComStock and ResStock datasets represent, as closely as possible, the 2018 U.S. commercial and residential building stock characteristics. The energy consumption results depend on the weather data used in the simulations. When modeled with AMY2018 weather, the datasets represent energy use for the year 2018. When TMY3 weather is used, they represent typical or average energy consumption under typical climate conditions.</p>
-      <p>Emissions and utility bills in the ComStock and ResStock datasets use input data from a several years, depending on the dataset release. See the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}#references">ComStock reference documentation</a> or <a href="https://docs.nlr.gov/docs/fy25osti/91621.pdf">ResStock reference documentation</a> for more details.</p>
+      <p>Emissions and utility bills in the ComStock and ResStock datasets use input data from several years, depending on the dataset release. See the <a href="{{site.baseurl}}{% link docs/resources/resources.md %}#references">ComStock reference documentation</a> or <a href="https://docs.nlr.gov/docs/fy25osti/91621.pdf">ResStock reference documentation</a> for more details.</p>
     </div>
   </li>
 
