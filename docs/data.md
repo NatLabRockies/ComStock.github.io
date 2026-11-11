@@ -19,6 +19,7 @@ Each dataset release is introduced with a webinar presentation. Access the webin
 ComStock dataset releases are summarized in the following table with links for accessing the aggregate results.
 
 **<span style="color:red">DATASET NOTICES</span>**
+- In ComStock 2025 Release 3, small supply fans in buildings with older HVAC systems were modeled with a motor efficiency that is too low. See the [known issue documentation]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_3_fan_motor_efficiency_known_issue.md %}) for more information.
 - In ComStock 2025 Release 3, service water heating was not modeled in any California buildings. See the [known issue documentation]({{  site.baseurl  }}{% link docs/resources/explanations/2025_release_3_ca_swh_known_issue.md %}) for more information.
 
 |      | **ComStock Standard Dataset Release<br>2025 Release 3 - 2018 Weather** | **ComStock Standard Dataset Release<br>2025 Release 2 - 2012 Weather** | **ComStock Standard Dataset Release<br>2025 Release 2 - 2018 Weather** | **ComStock Standard Dataset Release<br>2025 Release 1 - 2018 Weather** |  **ComStock Standard Dataset Release<br>2024 Release 2 - 2018 Weather**  |  **ComStock End Use Savings Shape 2024 Release 1 - 2018 Weather**  |**ComStock End Use Savings Shape 2023 Release 2 - 2018 Weather** |   **ComStock End Use Savings Shape 2023 Release 1 - 2018 Weather**   |   **ComStock End Use Load Profiles - 2018 Weather**   |   **ComStock End Use Load Profiles - Typical Weather**   |
